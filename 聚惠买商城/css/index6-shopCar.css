@@ -1,0 +1,338 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none; }
+img{vertical-align: middle}
+ul, ol { list-style:none; }
+body { color:#333; font:12px/20px "SimSun","微软雅黑","Arial Narrow",HELVETICA; background:#fff;}
+em{font-style:normal}
+a { color:#666; text-decoration:none; }
+div,form,ul,ol,li,span,p{margin:0;padding:0;border:0;}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    font-size: 14px;
+    margin:0;padding:0;
+}
+i,em,b,strong{
+	font-style: normal;
+	font-weight: 100;
+}
+
+/*重置样式*/
+
+.header6{
+	width: 1210px;
+    margin: 0 auto;	
+    padding-top: 15px;
+    padding-bottom: 5px;
+    min-width:1210px;
+}
+.headCon{
+    width: 990px;
+    margin:0 auto;	
+}
+.headCon h1{
+    padding-top: 10px;
+    float: left;
+    width: 330px;
+    position: relative;	
+}
+.headCon h1 a{
+    position: relative;
+    display: block;
+    color: #fff;	
+}
+.shopCar{
+    width: 100%;
+    background: #F9F9F9;
+    height: auto;
+    min-width: 1210px;	
+}
+.shopCar .jindu{
+    margin: 0 auto;
+    padding: 10px 0 20px;
+    width: 700px;
+    position: absolute;
+    top: 40px;
+    left: 252px;
+    right:0;
+}
+.step1{
+    float: left;
+    width: 140px;	
+}
+.stepNmae{
+	color: #888;
+    font-weight: 700;
+    padding: 3px 0;	
+    text-align: center;
+}
+.step1 .step-j{
+	color: #fff;
+    font-family: 'arial black';
+    font-size: 18px;
+    height: 34px;
+    line-height: 34px;	
+    text-align: center;
+    background: url("../images/T2.png") no-repeat 50% -204px;
+}
+.step2 .step-j,.step3 .step-j,.step4 .step-j{
+	background: url("../images/T2.png") no-repeat 50% -102px;
+}
+.step5 .step-j{
+	background: url("../images/T2.png") no-repeat 50% -136px;
+}
+.car-box{
+    width: 990px;
+    border: 1px solid #ddd;
+    background: #fff;
+    margin: 0 auto;
+    margin-top:10px;	
+}
+.car-title{
+    background: #f1f1f1;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #DDD;	
+}
+.table{
+	width:100%;
+	
+}
+.table div{
+	text-align: center;
+	float: left;
+	line-height: 38px;
+}
+.table div input{
+	margin-top:10px;
+}
+.jiesuan{
+	padding:15px;
+	border-top:1px solid #eee;
+}
+.jiesuan .jixu{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 15px;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    background: #fafafa;
+    border: 1px solid #d9d9d9;	
+    float:left
+}
+.jiesuan p{
+	cursor: pointer;
+}
+.jiesuan .qujiesuan{
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background: #E31939;
+    margin-right: 25px;
+    margin-left: 10px;	
+    color: #fff;
+    float:left;
+    margin-left:100px;
+}
+.yingfu{
+	float:left;
+	line-height: 35px;
+	margin-left:200px;
+	color:#666;
+}
+.yingfu span{
+    color: #E31939;
+    font-size: 16px;
+    font-weight: bold;	
+}
+.jiesuan p{
+	float:left;
+	margin-left:30px;
+	line-height: 35px;
+	color:#666;
+}
+/*购物车，主要内容区*/
+.shopcarWarp{
+	width:100%;
+	margin-bottom: 20px;
+}
+.carContent{
+	width:100%;
+	border-bottom: 1px dashed #eee;
+	padding:10px 0;
+}
+
+.product-xinxi dl dd{
+       float: left;
+    width: 245px;
+    text-align: left;
+    font-size: 14px;
+}
+.product-xinxi dl{
+	margin:10px 13px 10px 30px;
+}
+.product-xinxi dl dt {
+	float:left;
+}
+.product-xinxi dl dt img{
+	width:60px;
+	height:60px;
+	float:left;
+}
+.check,.product-xinxi,.product-Num,.prodect-myPrice,.heji,.delet{
+	float: left;
+	text-align: center;
+}
+.check{
+	width:5%;
+}
+.check input{
+	margin-top:35px;
+}
+.product-xinxi{
+	width:40%;
+}	
+.product-Num{
+	width:15%;
+	margin-top:30px;
+}
+.prodect-myPrice{
+	width:15%;
+	text-align: center;
+    margin-top:30px;
+    height:100%;	
+}
+.heji{	
+	width:15%;
+	 margin-top:30px;
+}
+.delet{
+	width:10%;
+	 margin-top:30px;
+}
+
+#num {
+	width: 65%;
+    text-align: center;
+    margin-left:40px ;
+}
+#num a{
+	width:20px;
+	height:20px;
+	border:1px solid #bbb;
+	display: block;
+	float: left;
+	font-size: 16px;
+}
+#num input{
+	float: left;
+    width: 30px;
+    text-align: center;
+    margin: 0;
+    border: 1px solid #b3b3b3;
+    outline: none;
+    height: 20px;
+    line-height: 20px;
+    padding:0;
+}
+.prodect-myPrice span{
+	font-size: 14px;
+    font-weight: bold;
+    color: #e31939;
+
+}
+.heji span{
+	font-size: 14px;
+    font-weight: bold;
+    color: #e31939;
+}
+.change{
+	width:100%;
+	min-height: 1210px;
+	background: #f9f9f9;
+}
+.blank{
+		background: #f9f9f9;
+		visibility: visible;
+}
+.flow-box{
+    width: 990px;
+    border: 1px solid #ddd;
+ 
+    margin: 0 auto;	
+}
+.flow-box .box-title{
+    background: #f1f1f1;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #DDD;	
+}
+.box-title ul{
+	margin-left:40px;
+}
+.box-title li{
+	float: left;
+    margin-right: 20px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
+    color: #666;
+    cursor: pointer;
+    margin-top: 4px;	
+}
+.box-title .active{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #fff;
+    color: #e31939;	
+}
+.flow-hot{
+	width:100%;
+	overflow: hidden;
+	background:#fff;
+	margin-bottom: 50px;
+	
+}
+.flow-hot ul{
+    padding: 30px 0px;	
+}
+.flow-hot ul li{
+    float: left;
+    width: 160px;
+    margin: 20px 0 0 31px;
+    position: relative;	
+}
+.flow-hot li img{
+	width:150px;
+	height:150px;
+}
+.flow-hot li p{
+    padding-bottom: 15px;	
+}
+.price6 a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #e31939;	
+}
+.show{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

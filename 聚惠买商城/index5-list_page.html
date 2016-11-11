@@ -1,0 +1,1602 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>列表页</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/index5-list_page.css" />
+		<script src="js/jquery-1.11.0.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/index5-list_page.js"></script>
+		
+	</head>
+	<body>
+		<div class="header">
+    <div class="user-header">
+        <div class="header-content">
+            <ul class="site">
+                <b></b>
+                <li class="menu-1 city" style="background:#ff3300">
+                    <a class="location-city" href="javascript:;">邯郸</a>
+                    <div class="city-box">
+                        <div class="there">
+                            <h3>当前城市：<em>邯郸</em></h3>
+                        </div>
+                        <ul class="choose-city">
+                            <li><b>S</b><a href="javasctipt:;"><span>石家庄</span></a></li>
+                            <li><b>B</b><a href="javasctipt:;"><span>保定</span></a></li>
+                            <li><b>C</b><a href="javasctipt:;"><span>沧州</span><span>承德</span></a></li>
+                            <li><b>H</b><a href="javasctipt:;"><span>邯郸</span><span>衡水</span></a></li>
+                            <li><b>L</b><a href="javasctipt:;"><span>廊坊</span></a></li>
+                            <li><b>Q</b><a href="javasctipt:;"><span>秦皇岛</span></a></li>
+                            <li><b>T</b><a href="javasctipt:;"><span>唐山</span></a></li>
+                            <li><b>X</b><a href="javasctipt:;"><span>邢台</span></a></li>
+                            <li><b>Z</b><a href="javasctipt:;"><span>张家口</span></a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="menu-1"><a href="javascript:;">[切换区县]</a></li>
+
+            </ul>
+            <ul class="welcome">
+                <li>欢迎光临本店!</li>
+                <li><a class="yonghu" href="index2-entry.html">请登录</a></li>
+                <li><a class="zc" href="index3-register.html">免费注册</a></li>
+            </ul>
+            <ul class="personal">
+                <li class="mytaobao menu-item">
+                    <a class="menu-2" href="javascript:;">我的信息<b></b></a>
+                    <div class="sn-menu-box">
+                        <div class="sn-menu">
+                            <a class="menu-2" href="javascript:;">已买到的宝贝</a>
+                            <a class="menu-2" href="javascript:;">我的地址管理</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="mybranch"><em></em><a class="menu-2" href="javascript:;" style="color:#ff3300;">我关注的店铺</a></li>
+                <li class="mini-cart"><em></em><a class="menu-2" href="javascript:;" style="color:#ff3300;">购物车</a></li>
+                <li class="my-favorite menu-item">
+                    <a class="menu-2" href="javascript:;">收藏夹<b></b></a>
+                    <div class="sn-menu-box">
+                        <div class="sn-menu">
+                            <a class="menu-2" href="javascript:;">收藏的宝贝</a>
+                            <a class="menu-2" href="javascript:;">收藏的店铺</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="phonebg menu-item">
+                    <em></em><a class="menu-2" href="javascript:;">手机版<b></b></a>
+                    <div class="sn-menu-box">
+                        <div class="sn-menu-2"><img src="images/app.jpg" alt=""></div>
+                    </div>
+                </li>
+                <li class="seller menu-item">
+                    <a class="menu-2" href="javascript:;">商家支持<b></b></a>
+                    <div class="sn-menu-box" style="right:0;left:auto;">
+                        <div class="sn-menu-3">
+                            <ul>
+                                <li>
+                                    <h3>商家：</h3>
+                                    <a href="javascript:;">售后流程</a><a href="javascript:;">购物流程</a><a
+                                        href="javascript:;">订购方式</a><a href="javascript:;">常见问题</a><a
+                                        href="javascript:;">文章资讯</a><a href="javascript:;">聚惠卡</a><a
+                                        href="javascript:;">认证商家</a><a href="javascript:;">全面招商</a>
+                                </li>
+                                <li>
+                                    <h3>帮助：</h3>
+                                    <a href="javascript:;">帮助中心</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="webmap menu-item">
+                    <em></em><a class="menu-2" href="javascript:;">网站导航<b></b></a>
+                    <div class="sn-menu-box" style="padding:15px 0;left:auto;right:0;">
+                        <div class="sn-menu-4">
+                            <div class="site-cont site-hot">
+                                <h2 style="color:#f56a00;">产品分类 Product</h2>
+                                <ul>
+                                    <li><a href="javascript:;">食品生鲜</a></li>
+                                    <li><a href="javascript:;">食品生鲜</a></li>
+                                    <li><a href="javascript:;">食品生鲜</a></li>
+                                    <li><a href="javascript:;">食品生鲜</a></li>
+                                    <li><a href="javascript:;">食品生鲜</a></li>
+                                    <li><a href="javascript:;">食品生鲜</a></li>
+                                    <li><a href="javascript:;">食品生鲜</a></li>
+                                    <li><a href="javascript:;">食品生鲜</a></li>
+                                    <li><a href="javascript:;">食品生鲜</a></li>
+                                </ul>
+                            </div>
+                            <div class="site-cont site-market">
+                                <h2>店铺街 Market</h2>
+                                <ul>
+                                    <li><a href="javascript:;">男人</a></li>
+                                    <li><a href="javascript:;">女人</a></li>
+                                    <li><a href="javascript:;">精选</a></li>
+                                    <li><a href="javascript:;">家装</a></li>
+                                    <li><a href="javascript:;">母婴</a></li>
+                                    <li><a href="javascript:;">美妆</a></li>
+                                    <li><a href="javascript:;">没事</a></li>
+                                    <li><a href="javascript:;">数码</a></li>
+                                </ul>
+                            </div>
+                            <div class="site-cont site-brand">
+                                <h2 style="color:#000;">关于我们 About</h2>
+                                <ul>
+                                    <li><a href="javascript:;">公司简介</a></li>
+                                    <li><a href="javascript:;">管理团队</a></li>
+                                    <li><a href="javascript:;">媒体报道</a></li>
+                                    <li><a href="javascript:;">领导关怀</a></li>
+                                    <li><a href="javascript:;">招贤纳士</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--logo-->
+<div class="head-logo">
+    <div class="logo-content clearfix">
+        <h1><a href="index.html"><img src="images/logo1.jpg" alt=""></a></h1>
+        <div class="search">
+            <ul class="searchtype clearfix">
+                <li class="active">宝贝</li>
+                <li>店铺</li>
+            </ul>
+            <form action="" method="get" name="" id="searchForm">
+                <div class="mallSearch-input clearfix">
+                    <input class="text" type="text" value="请输入关键字"><input class="btn" value="搜索" type="submit">
+                </div>
+            </form>
+            <ul class="search-hot">
+                <li><a style="border-left:none;" href="javascript:;">灯饰</a></li>
+                <li><a href="javascript:;">私房菜</a></li>
+                <li><a href="javascript:;">丛台酒</a></li>
+                <li><a href="javascript:;">非凡旅游</a></li>
+                <li><a href="javascript:;">家具</a></li>
+                <li><a href="javascript:;">三星S6</a></li>
+                <li><a href="javascript:;">苹果</a></li>
+            </ul>
+        </div>
+        <div class="headerbanner"><a href="javascript:;"></a><a href="javascript:;"></a><a href="javascript:;"></a>
+        </div>
+    </div>
+</div>
+<!--主导航-->
+<div class="mainnav">
+    <div class="box clearfix">
+        <div class="allGoods left"><a href="javascript:;"><b>全部商品分类</b><i></i></a></div>
+        <div class="mainmenu left">
+            <ul  class="clearfix">
+                <li><a href="javascript:;">首页</a></li>
+                <li><a href="javascript:;">食品生鲜</a></li>
+                <li><a href="javascript:;">店铺街</a></li>
+                <li><a href="javascript:;">积分商城</a></li>
+                <li><a href="javascript:;">优惠活动</a></li>
+                <li><a href="javascript:;">智能扫货</a></li>
+                <li><a href="javascript:;">文章资讯</a></li>
+            </ul>
+        </div>
+		<div class="all_cat" style="background:#fff;background-color: rgba(255,255,255,.8);">
+			<div class="list">
+				<dl>
+					<dt>
+						<strong class="cat1"><a href="javascript:;">食品生鲜</a></strong>
+						<p>
+							<a href="javascript:;">保健食品</a>
+							<a href="javascript:;">进口水果</a>
+							<a href="javascript:;">糖果巧克力</a>
+							<a href="javascript:;">牛年乳品</a>
+							<a href="javascript:;">坚果炒货</a>
+							<a href="javascript:;">蜜饯果干</a>
+						</p>
+					</dt>
+				</dl>
+				<div id="JS_side_cat_list_1" class="goodsMap clearfix">
+					<div class="toMap clearfix">
+						<div class="map-left clearfix">
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>保健食品：</a></div>
+								<div class="link1">
+								
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>进口水果：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>糖果巧克力：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>牛奶乳品：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>坚果炒货：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>蜜饯果干：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+						</div>
+						<div class="map-right">
+							<h4>推荐品牌</h4>
+							<ul>
+								<li><a href="javascript:;">三只松鼠</a></li>
+								<li><a href="javascript:;">米兰蜜语</a></li>
+								<li><a href="javascript:;">百味草</a></li>
+								<li><a href="javascript:;">三元</a></li>
+								<li><a href="javascript:;">伊利</a></li>
+								<li><a href="javascript:;">肯德基</a></li>
+								<li><a href="javascript:;">必胜客</a></li>
+								<li><a href="javascript:;">西域美农</a></li>
+								<li><a href="javascript:;">美赞臣</a></li>
+								<li><a href="javascript:;">享受</a></li>
+								<li><a href="javascript:;">糖糖屋</a></li>
+								<li><a href="javascript:;">宝瑞琪</a></li>
+								<li><a href="javascript:;">弗列罗</a></li>
+								<li><a href="javascript:;">Vega</a></li>
+								<li><a href="javascript:;">圣牧</a></li>
+								<li><a href="javascript:;">蒙牛</a></li>
+								<li><a href="javascript:;">可口可乐</a></li>
+								<li><a href="javascript:;">施恩</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list">
+				<dl>
+					<dt>
+						<strong class="cat2"><a href="javascript:;">服装服饰</a></strong>
+						<p>
+							<a href="javascript:;">女装馆</a>
+							<a href="javascript:;">T恤</a>
+							<a href="javascript:;">中长款半身裙</a>
+							<a href="javascript:;">夹克/风衣</a>
+							<a href="javascript:;">男装馆</a>
+							<a href="javascript:;">内衣馆</a>
+							<a href="javascript:;">户外鞋服</a>
+							<a href="javascript:;">鞋帽</a>
+							<a href="javascript:;">箱包馆</a>
+						</p>
+					</dt>
+				</dl>
+				<div id="JS_side_cat_list_2" class="goodsMap clearfix">
+					<div class="toMap clearfix">
+						<div class="map-left clearfix">
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>保健食品：</a></div>
+								<div class="link1">
+								
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>进口水果：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>糖果巧克力：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>牛奶乳品：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>坚果炒货：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>蜜饯果干：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+						</div>
+						<div class="map-right">
+							<h4>推荐品牌</h4>
+							<ul>
+								<li><a href="javascript:;">三只松鼠</a></li>
+								<li><a href="javascript:;">米兰蜜语</a></li>
+								<li><a href="javascript:;">百味草</a></li>
+								<li><a href="javascript:;">三元</a></li>
+								<li><a href="javascript:;">伊利</a></li>
+								<li><a href="javascript:;">肯德基</a></li>
+								<li><a href="javascript:;">必胜客</a></li>
+								<li><a href="javascript:;">西域美农</a></li>
+								<li><a href="javascript:;">美赞臣</a></li>
+								<li><a href="javascript:;">享受</a></li>
+								<li><a href="javascript:;">糖糖屋</a></li>
+								<li><a href="javascript:;">宝瑞琪</a></li>
+								<li><a href="javascript:;">弗列罗</a></li>
+								<li><a href="javascript:;">Vega</a></li>
+								<li><a href="javascript:;">圣牧</a></li>
+								<li><a href="javascript:;">蒙牛</a></li>
+								<li><a href="javascript:;">可口可乐</a></li>
+								<li><a href="javascript:;">施恩</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list">
+				<dl>
+					<dt>
+						<strong class="cat3"><a href="javascript:;">个性化妆</a></strong>
+						<p>
+							<a href="javascript:;">美容护肤</a>
+							<a href="javascript:;">香水彩妆</a>
+							<a href="javascript:;">面部护肤</a>
+							<a href="javascript:;">洗发护发</a>
+							<a href="javascript:;">身体护肤</a>
+							<a href="javascript:;">口腔护理</a>
+						</p>
+					</dt>
+				</dl>
+				<div id="JS_side_cat_list_2" class="goodsMap clearfix">
+					<div class="toMap clearfix">
+						<div class="map-left clearfix">
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>保健食品：</a></div>
+								<div class="link1">
+								
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>进口水果：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>糖果巧克力：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>牛奶乳品：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>坚果炒货：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>蜜饯果干：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+						</div>
+						<div class="map-right">
+							<h4>推荐品牌</h4>
+							<ul>
+								<li><a href="javascript:;">三只松鼠</a></li>
+								<li><a href="javascript:;">米兰蜜语</a></li>
+								<li><a href="javascript:;">百味草</a></li>
+								<li><a href="javascript:;">三元</a></li>
+								<li><a href="javascript:;">伊利</a></li>
+								<li><a href="javascript:;">肯德基</a></li>
+								<li><a href="javascript:;">必胜客</a></li>
+								<li><a href="javascript:;">西域美农</a></li>
+								<li><a href="javascript:;">美赞臣</a></li>
+								<li><a href="javascript:;">享受</a></li>
+								<li><a href="javascript:;">糖糖屋</a></li>
+								<li><a href="javascript:;">宝瑞琪</a></li>
+								<li><a href="javascript:;">弗列罗</a></li>
+								<li><a href="javascript:;">Vega</a></li>
+								<li><a href="javascript:;">圣牧</a></li>
+								<li><a href="javascript:;">蒙牛</a></li>
+								<li><a href="javascript:;">可口可乐</a></li>
+								<li><a href="javascript:;">施恩</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list">
+				<dl>
+					<dt>
+						<strong class="cat4"><a href="javascript:;">手机数码</a></strong>
+						<p>
+							<a href="javascript:;">网卡</a>
+							<a href="javascript:;">热卖手机</a>
+							<a href="javascript:;">手机配件</a>
+							<a href="javascript:;">数码影音</a>
+							<a href="javascript:;">智能设备</a>
+							<a href="javascript:;">电脑</a>
+						</p>
+					</dt>
+				</dl>
+				<div id="JS_side_cat_list_2" class="goodsMap clearfix">
+					<div class="toMap clearfix">
+						<div class="map-left clearfix">
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>保健食品：</a></div>
+								<div class="link1">
+								
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>进口水果：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>糖果巧克力：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>牛奶乳品：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>坚果炒货：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>蜜饯果干：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+						</div>
+						<div class="map-right">
+							<h4>推荐品牌</h4>
+							<ul>
+								<li><a href="javascript:;">三只松鼠</a></li>
+								<li><a href="javascript:;">米兰蜜语</a></li>
+								<li><a href="javascript:;">百味草</a></li>
+								<li><a href="javascript:;">三元</a></li>
+								<li><a href="javascript:;">伊利</a></li>
+								<li><a href="javascript:;">肯德基</a></li>
+								<li><a href="javascript:;">必胜客</a></li>
+								<li><a href="javascript:;">西域美农</a></li>
+								<li><a href="javascript:;">美赞臣</a></li>
+								<li><a href="javascript:;">享受</a></li>
+								<li><a href="javascript:;">糖糖屋</a></li>
+								<li><a href="javascript:;">宝瑞琪</a></li>
+								<li><a href="javascript:;">弗列罗</a></li>
+								<li><a href="javascript:;">Vega</a></li>
+								<li><a href="javascript:;">圣牧</a></li>
+								<li><a href="javascript:;">蒙牛</a></li>
+								<li><a href="javascript:;">可口可乐</a></li>
+								<li><a href="javascript:;">施恩</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list">
+				<dl>
+					<dt>
+						<strong class="cat6"><a href="javascript:;">家用电器</a></strong>
+						<p>
+							<a href="javascript:;">大  家  电</a>
+							<a href="javascript:;">大家电</a>
+							<a href="javascript:;">生活电器</a>
+							<a href="javascript:;">厨房电器</a>
+							<a href="javascript:;">个护健康</a>
+							<a href="javascript:;">五金家装</a>
+						</p>
+					</dt>
+				</dl>
+				<div id="JS_side_cat_list_2" class="goodsMap clearfix">
+					<div class="toMap clearfix">
+						<div class="map-left clearfix">
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>保健食品：</a></div>
+								<div class="link1">
+								
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>进口水果：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>糖果巧克力：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>牛奶乳品：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>坚果炒货：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>蜜饯果干：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+						</div>
+						<div class="map-right">
+							<h4>推荐品牌</h4>
+							<ul>
+								<li><a href="javascript:;">三只松鼠</a></li>
+								<li><a href="javascript:;">米兰蜜语</a></li>
+								<li><a href="javascript:;">百味草</a></li>
+								<li><a href="javascript:;">三元</a></li>
+								<li><a href="javascript:;">伊利</a></li>
+								<li><a href="javascript:;">肯德基</a></li>
+								<li><a href="javascript:;">必胜客</a></li>
+								<li><a href="javascript:;">西域美农</a></li>
+								<li><a href="javascript:;">美赞臣</a></li>
+								<li><a href="javascript:;">享受</a></li>
+								<li><a href="javascript:;">糖糖屋</a></li>
+								<li><a href="javascript:;">宝瑞琪</a></li>
+								<li><a href="javascript:;">弗列罗</a></li>
+								<li><a href="javascript:;">Vega</a></li>
+								<li><a href="javascript:;">圣牧</a></li>
+								<li><a href="javascript:;">蒙牛</a></li>
+								<li><a href="javascript:;">可口可乐</a></li>
+								<li><a href="javascript:;">施恩</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list">
+				<dl>
+					<dt>
+						<strong class="cat5"><a href="javascript:;">家居日用</a></strong>
+						<p>
+							<a href="javascript:;">家具</a>
+							<a href="javascript:;">家纺</a>
+							<a href="javascript:;">厨具</a>
+							<a href="javascript:;">灯具</a>
+							<a href="javascript:;">家装软饰</a>
+							<a href="javascript:;">生活用品</a>
+						</p>
+					</dt>
+				</dl>
+				<div id="JS_side_cat_list_2" class="goodsMap clearfix">
+					<div class="toMap clearfix">
+						<div class="map-left clearfix">
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>保健食品：</a></div>
+								<div class="link1">
+								
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>进口水果：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>糖果巧克力：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>牛奶乳品：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>坚果炒货：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>蜜饯果干：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+						</div>
+						<div class="map-right">
+							<h4>推荐品牌</h4>
+							<ul>
+								<li><a href="javascript:;">三只松鼠</a></li>
+								<li><a href="javascript:;">米兰蜜语</a></li>
+								<li><a href="javascript:;">百味草</a></li>
+								<li><a href="javascript:;">三元</a></li>
+								<li><a href="javascript:;">伊利</a></li>
+								<li><a href="javascript:;">肯德基</a></li>
+								<li><a href="javascript:;">必胜客</a></li>
+								<li><a href="javascript:;">西域美农</a></li>
+								<li><a href="javascript:;">美赞臣</a></li>
+								<li><a href="javascript:;">享受</a></li>
+								<li><a href="javascript:;">糖糖屋</a></li>
+								<li><a href="javascript:;">宝瑞琪</a></li>
+								<li><a href="javascript:;">弗列罗</a></li>
+								<li><a href="javascript:;">Vega</a></li>
+								<li><a href="javascript:;">圣牧</a></li>
+								<li><a href="javascript:;">蒙牛</a></li>
+								<li><a href="javascript:;">可口可乐</a></li>
+								<li><a href="javascript:;">施恩</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list">
+				<dl>
+					<dt>
+						<strong class="cat7"><a href="javascript:;">酒类饮料</a></strong>
+						<p>
+							<a href="javascript:;">酒水</a>
+							<a href="javascript:;">冲调饮品</a>
+							<a href="javascript:;">饮料饮品</a>
+							<a href="javascript:;">茗茶</a>
+						</p>
+					</dt>
+				</dl>
+				<div id="JS_side_cat_list_2" class="goodsMap clearfix">
+					<div class="toMap clearfix">
+						<div class="map-left clearfix">
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>保健食品：</a></div>
+								<div class="link1">
+								
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>进口水果：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>糖果巧克力：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>牛奶乳品：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>坚果炒货：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>蜜饯果干：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+						</div>
+						<div class="map-right">
+							<h4>推荐品牌</h4>
+							<ul>
+								<li><a href="javascript:;">三只松鼠</a></li>
+								<li><a href="javascript:;">米兰蜜语</a></li>
+								<li><a href="javascript:;">百味草</a></li>
+								<li><a href="javascript:;">三元</a></li>
+								<li><a href="javascript:;">伊利</a></li>
+								<li><a href="javascript:;">肯德基</a></li>
+								<li><a href="javascript:;">必胜客</a></li>
+								<li><a href="javascript:;">西域美农</a></li>
+								<li><a href="javascript:;">美赞臣</a></li>
+								<li><a href="javascript:;">享受</a></li>
+								<li><a href="javascript:;">糖糖屋</a></li>
+								<li><a href="javascript:;">宝瑞琪</a></li>
+								<li><a href="javascript:;">弗列罗</a></li>
+								<li><a href="javascript:;">Vega</a></li>
+								<li><a href="javascript:;">圣牧</a></li>
+								<li><a href="javascript:;">蒙牛</a></li>
+								<li><a href="javascript:;">可口可乐</a></li>
+								<li><a href="javascript:;">施恩</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list">
+				<dl>
+					<dt>
+						<strong class="cat8 "><a href="javascript:;">母婴用品</a></strong>
+						<p>
+							<a href="javascript:;">尿裤湿巾</a>
+							<a href="javascript:;">玩具</a>
+							<a href="javascript:;">婴儿尿裤</a>
+							<a href="javascript:;">孕妇装</a>
+							<a href="javascript:;">y婴儿用品</a>
+							<a href="javascript:;">孕妈专区</a>
+						</p>
+					</dt>
+				</dl>
+				<div id="JS_side_cat_list_2" class="goodsMap clearfix">
+					<div class="toMap clearfix">
+						<div class="map-left clearfix">
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>保健食品：</a></div>
+								<div class="link1">
+								
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>进口水果：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>糖果巧克力：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>牛奶乳品：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>坚果炒货：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+							<div class="list1 clearfix">
+								<div class="cat"><a href='javasvript:;'>蜜饯果干：</a></div>
+								<div class="link1">
+									
+								</div>
+							</div>
+						</div>
+						<div class="map-right">
+							<h4>推荐品牌</h4>
+							<ul>
+								<li><a href="javascript:;">三只松鼠</a></li>
+								<li><a href="javascript:;">米兰蜜语</a></li>
+								<li><a href="javascript:;">百味草</a></li>
+								<li><a href="javascript:;">三元</a></li>
+								<li><a href="javascript:;">伊利</a></li>
+								<li><a href="javascript:;">肯德基</a></li>
+								<li><a href="javascript:;">必胜客</a></li>
+								<li><a href="javascript:;">西域美农</a></li>
+								<li><a href="javascript:;">美赞臣</a></li>
+								<li><a href="javascript:;">享受</a></li>
+								<li><a href="javascript:;">糖糖屋</a></li>
+								<li><a href="javascript:;">宝瑞琪</a></li>
+								<li><a href="javascript:;">弗列罗</a></li>
+								<li><a href="javascript:;">Vega</a></li>
+								<li><a href="javascript:;">圣牧</a></li>
+								<li><a href="javascript:;">蒙牛</a></li>
+								<li><a href="javascript:;">可口可乐</a></li>
+								<li><a href="javascript:;">施恩</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
+<!--主体-->
+<div class="blank"></div>
+<div class="box">
+	<div class="close">
+		<i></i><a href="index.html">首页</a><code>></code><a href="javascript:;">服装服饰</a><code>></code> 新款大框男士太阳眼镜女潮蛤蟆镜圆脸偏光墨镜防紫外线开车驾驶镜
+	</div>
+</div>
+<div class="blank"></div>
+<div class="box">
+	<div class="w" id="i-right">
+		<div class="hot-left">
+			<div class="tj">热卖推荐</div>
+			<div class="tj-list">
+				<dl>
+					<dt><a href="javascript:;"><img src="images/tj1.jpg" alt=""  height='100' width='100'/></a></dt>
+					<dd>
+						<div class="listname">
+							<a href="javascript:;">2016春秋季新款韩版胖MM大码女装宽松...</a>
+						</div>
+						<div class="listprice">特价：<span>78.0</span></div>
+						<div class="chakan"><a href="javascrip:;">查看详情</a></div>
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="javascript:;"><img src="images/tj2.jpg" alt=""  height='100' width='100'/></a></dt>
+					<dd>
+						<div class="listname">
+							<a href="javascript:;">欧洲站2016春秋女宽松显瘦长袖中长款针...</a>
+						</div>
+						<div class="listprice">特价：<span>328.0</span></div>
+						<div class="chakan"><a href="javascrip:;">查看详情</a></div>
+					</dd>
+				</dl>
+				<dl>
+					<dt><a href="javascript:;"><img src="images/tj3.jpg" alt=""  height='100' width='100'/></a></dt>
+					<dd>
+						<div class="listname">
+							<a href="javascript:;">千与千寻 2016春秋新款 女装蕾丝长裙...</a>
+						</div>
+						<div class="listprice">特价：<span>186.0</span></div>
+						<div class="chakan"><a href="javascrip:;">查看详情</a></div>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="hotright">
+			<div class="cx">促销活动</div>
+			<div class="cxlist">
+				<ul>
+					<li>·<a href="javascript:;">[礼包]</a><a href="javascript:;">厨房电器优惠套餐</a></li>
+					<li>·<a href="javascript:;">[礼包]</a><a href="javascript:;">家用电器超值礼包</a></li>
+					<li>·<a href="javascript:;">[礼包]</a><a href="javascript:;">数码超值搭配套餐</a></li>
+					<li>·<a href="javascript:;">[礼包]</a><a href="javascript:;">婴儿超值大礼包</a></li>
+					<li>·<a href="javascript:;">[礼包]</a><a href="javascript:;">婴儿超值大礼包</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!--商品筛选-->
+<div class="box clearfix">
+	<div class="goods-choose clearfix">
+		<h4><span>连衣裙 - </span>商品筛选</h4>
+		<dl>
+			<dt>品牌:</dt>
+			<dd class="duoxuan"><a href="javascript:;"><span>+</span>多选</a></dd>
+			<dd>
+				<div class="choose-pp">
+					<ul>
+						<li><a href="javascipt:;"><img src="images/pp1.jpg" alt="" /></a></li>
+						<li><a href="javascipt:;"><img src="images/pp2.jpg" alt="" /></a></li>
+						<li><a href="javascipt:;"><img src="images/pp1.jpg" alt="" /></a></li>
+						<li><a href="javascipt:;"><img src="images/pp2.jpg" alt="" /></a></li>
+						<li><a href="javascipt:;"><img src="images/pp1.jpg" alt="" /></a></li>
+						<li><a href="javascipt:;" style="text-align: center;line-height:34px;">其他</a></li>
+					</ul>
+				</div>
+			</dd>
+		</dl>
+		<dl style="border-top: 1px dotted #ccc;">
+			<dt>价格：</dt>
+			<dd class="duoxuan">&nbsp;</dd>
+			<dd>
+				<ul>
+					<li><a href="havascript:;">50-120</a></li>
+					<li><a href="havascript:;">120-190</a></li>
+					<li><a href="havascript:;">190-260</a></li>
+					<li><a href="havascript:;">260-350</a></li>
+					<li>
+						<input type="text" value="0"/><i style="float:left;"> - </i><input type="text" value="0"/>
+						<input type="button" value="确定"/>
+					</li>
+				</ul>
+			</dd>
+		</dl>
+	</div>
+</div>
+<div class="box clearfix">
+	<div class="left0">
+		<div class="m">
+			<div class="m-t">
+				<div class="item">
+					<a href="javascript:;"><h2><span></span><a href="javascript:;">女装馆</a></h2></a>
+					<ul>
+						<li><a href="javacsript:;">时尚套装</a></li>
+						<li><a href="javacsript:;">复古旗袍</a></li>
+						<li><a href="javacsript:;">牛仔裤</a></li>
+						<li><a href="javacsript:;">连衣裙</a></li>
+						<li><a href="javacsript:;">连体裤</a></li>
+						<li><a href="javacsript:;">时尚套装</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<a href="javascript:;"><h2><span></span><a href="javascript:;">T恤</a></h2></a>
+					<ul>
+						<li><a href="javacsript:;">时尚套装</a></li>
+						<li><a href="javacsript:;">复古旗袍</a></li>
+						<li><a href="javacsript:;">牛仔裤</a></li>
+						<li><a href="javacsript:;">连衣裙</a></li>
+						<li><a href="javacsript:;">连体裤</a></li>
+						<li><a href="javacsript:;">时尚套装</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<a href="javascript:;"><h2><span></span><a href="javascript:;">夹克/风衣</a></h2></a>
+					<ul>
+						<li><a href="javacsript:;">时尚套装</a></li>
+						<li><a href="javacsript:;">复古旗袍</a></li>
+						<li><a href="javacsript:;">牛仔裤</a></li>
+						<li><a href="javacsript:;">连衣裙</a></li>
+						<li><a href="javacsript:;">连体裤</a></li>
+						<li><a href="javacsript:;">时尚套装</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<a href="javascript:;"><h2><span></span><a href="javascript:;">男装馆</a></h2></a>
+					<ul>
+						<li><a href="javacsript:;"><a href="javascript:;">时尚套装</a></a></li>
+						<li><a href="javacsript:;">复古旗袍</a></li>
+						<li><a href="javacsript:;">牛仔裤</a></li>
+						<li><a href="javacsript:;">连衣裙</a></li>
+						<li><a href="javacsript:;">连体裤</a></li>
+						<li><a href="javacsript:;">时尚套装</a></li>
+					</ul>
+				</div>
+				<div class="item">
+					<a href="javascript:;"><h2><span></span>户外鞋服</h2></a>
+					<ul>
+						<li><a href="javacsript:;">跑步鞋</a></li>
+						<li><a href="javacsript:;">钓鱼服</a></li>
+						<li><a href="javacsript:;">篮球鞋</a></li>
+						<li><a href="javacsript:;">登山鞋</a></li>
+						<li><a href="javacsript:;">帆布鞋</a></li>
+						<li><a href="javacsript:;">套装</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="m">
+			<div class="me">
+				<h2>新品推荐</h2>
+			</div>
+			<div class="me-cont">
+				<div class="clock">
+					<ul>
+						<li class="fore1">
+							<div class="pImg"><a href="javascript:;"><img src="images/l-tj1.jpg"/></a></div>
+							<div class="rate"><a href="javascript:;">2016春秋季新款韩版胖MM大码女装宽松中长款假两件棉麻长袖连衣裙</a></div>
+							<div class="newprice"><strong>78.0</strong><b>93.6</b></div>
+						</li>
+						<li class="fore1">
+							<div class="pImg"><a href="javascript:;"><img src="images/l-tj2.jpg"/></a></div>
+							<div class="rate"><a href="javascript:;">欧洲站2016春秋女宽松显瘦长袖中长款针织连衣裙长裙羊毛衫连衣裙</a></div>
+							<div class="newprice"><strong>338.0</strong><b>358.3</b></div>
+						</li>
+						<li class="fore1">
+							<div class="pImg"><a href="javascript:;"><img src="images/l-ti3.jpg"/></a></div>
+							<div class="rate"><a href="javascript:;">千与千寻 2016春秋新款 女装蕾丝长裙 复古小立领连衣裙</a></div>
+							<div class="newprice"><strong>186.0</strong><b>223.6</b></div>
+						</li>
+						<li class="fore1">
+							<div class="pImg"><a href="javascript:;"><img src="images/l-tj4.jpg"/></a></div>
+							<div class="rate"><a href="javascript:;">高端2015夏装新款修身淑坊女女装蕾丝短袖复女连衣裙装</a></div>
+							<div class="newprice"><strong>199.0</strong><b>239.8</b></div>
+						</li>
+						<li class="fore1">
+							<div class="pImg"><a href="javascript:;"><img src="images/l-tj5.jpg"/></a></div>
+							<div class="rate"><a href="javascript:;">2015新款修身开衫短款七分袖小西装女薄网纱披肩防晒衫小外套女夏</a></div>
+							<div class="newprice"><strong>259.0</strong><b>310.8</b></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="m">
+			<div class="me">
+				<h2>销量排行榜</h2>
+			</div>
+			<div class="me-cont">
+				<div class="clock">
+					<ul>
+						<li class="fore1">
+							<div class="pImg"><a href="javascript:;"><img src="images/l-tj1.jpg"/></a></div>
+							<div class="rate"><a href="javascript:;">2016春秋季新款韩版胖MM大码女装宽松中长款假两件棉麻长袖连衣裙</a></div>
+							<div class="newprice"><strong>78.0</strong><b>93.6</b></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="right-ex">
+		<div class="warp">
+			<div id="filter">
+				<div class="fore2 clearfix">
+					<dl>
+						<dt>推荐：</dt>
+						<dd><a href="javascript;;">上架<b></b></a></dd>
+						<dd><a href="javascript;;">销量<b></b></a></dd>
+						<dd><a href="javascript;;">价格<b></b></a></dd>
+						<dd class="hot-tj"><a href="javascript;;">人气<b></b></a></dd>
+						<dd><a href="javascript;;">更新<b></b></a></dd>
+					</dl>
+					<div class="page">
+						<span class="page-c">1<em>/1</em></span>
+						<span class="prev"><</span><span class="next">></span>
+					</div>
+					<div class="total"><span>共<strong>13</strong>件商品</span></div>
+				</div>
+				<div class="fore2 fore3">
+					<a href="javascript:;" class="bg">仅显示有货</a>
+					<a>全部</a><a>网站自营</a><a>入驻商店铺</a>
+				</div>
+			</div>
+			<div class="suares clearfix">
+				<ul class="list-pic">
+					<!--<li class="li-item">
+						<div class="goods-content">
+							<span class="title-pic">精品</span>
+							<div class="goods-pic">
+								<a href="javascript:;"><img src="images/lb1.jpg"/></a>
+							</div>
+							<div class="goodsinfo">
+								<div class="goods-name"><a href="javascript:;">2015夏季小西装女外套夏装薄款韩版修身短款小西服</a></div>
+								<div class="goods-price">
+									<em class="salePrice">312.0</em><em class="markPrice">255.6</em>
+								</div>
+								<div class="sale-stat">
+									<ul>
+										<li>
+											<a href="javascript:;">0</a>
+											<p>商品销量</p>
+										</li>
+										<li>
+											<a href="javascript:;">1</a>
+											<p>用户评论</p>
+										</li>
+										<li>
+											<a href="javascript:;">389</a>
+											<p>关注人气</p>
+										</li>
+									</ul>
+								</div>
+								<div class="store">
+									<a class="collet-btn" href="javascript:;"></a>
+									<a class="compare-btn shop-compare" href="javascript:;"></a>
+								</div>
+								<div class="addcart">
+									<a href="javscript:;">加入购物车</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="li-item">
+						<div class="goods-content">
+							<span class="title-pic">精品</span>
+							<div class="goods-pic">
+								<a href="javascript:;"><img src="images/lb1.jpg"/></a>
+							</div>
+							<div class="goodsinfo">
+								<div class="goods-name"><a href="javascript:;">2015夏季小西装女外套夏装薄款韩版修身短款小西服</a></div>
+								<div class="goods-price">
+									<em class="salePrice">312.0</em><em class="markPrice">255.6</em>
+								</div>
+								<div class="sale-stat">
+									<ul>
+										<li>
+											<a href="javascript:;">0</a>
+											<p>商品销量</p>
+										</li>
+										<li>
+											<a href="">1</a>
+											<p>用户评论</p>
+										</li>
+										<li>
+											<a href="">389</a>
+											<p>关注人气</p>
+										</li>
+									</ul>
+								</div>
+								<div class="store">
+									<a class="collet-btn" href="javascript:;"></a>
+									<a class="compare-btn shop-compare" href="javascript:;"></a>
+								</div>
+								<div class="addcart">
+									<a href="javscript:;">加入购物车</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="li-item">
+						<div class="goods-content">
+							<span class="title-pic">精品</span>
+							<div class="goods-pic">
+								<a href="javascript:;"><img src="images/lb1.jpg"/></a>
+							</div>
+							<div class="goodsinfo">
+								<div class="goods-name"><a href="javascript:;">2015夏季小西装女外套夏装薄款韩版修身短款小西服</a></div>
+								<div class="goods-price">
+									<em class="salePrice">312.0</em><em class="markPrice">255.6</em>
+								</div>
+								<div class="sale-stat">
+									<ul>
+										<li>
+											<a href="javascript:;">0</a>
+											<p>商品销量</p>
+										</li>
+										<li>
+											<a href="">1</a>
+											<p>用户评论</p>
+										</li>
+										<li>
+											<a href="">389</a>
+											<p>关注人气</p>
+										</li>
+									</ul>
+								</div>
+								<div class="store">
+									<a class="collet-btn" href="javascript:;"></a>
+									<a class="compare-btn shop-compare" href="javascript:;"></a>
+								</div>
+								<div class="addcart">
+									<a href="javscript:;">加入购物车</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="li-item">
+						<div class="goods-content">
+							<span class="title-pic">精品</span>
+							<div class="goods-pic">
+								<a href="javascript:;"><img src="images/lb1.jpg"/></a>
+							</div>
+							<div class="goodsinfo">
+								<div class="goods-name"><a href="javascript:;">2015夏季小西装女外套夏装薄款韩版修身短款小西服</a></div>
+								<div class="goods-price">
+									<em class="salePrice">312.0</em><em class="markPrice">255.6</em>
+								</div>
+								<div class="sale-stat">
+									<ul>
+										<li>
+											<a href="javascript:;">0</a>
+											<p>商品销量</p>
+										</li>
+										<li>
+											<a href="">1</a>
+											<p>用户评论</p>
+										</li>
+										<li>
+											<a href="">389</a>
+											<p>关注人气</p>
+										</li>
+									</ul>
+								</div>
+								<div class="store">
+									<a class="collet-btn" href="javascript:;"></a>
+									<a class="compare-btn shop-compare" href="javascript:;"></a>
+								</div>
+								<div class="addcart">
+									<a href="javscript:;">加入购物车</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="li-item">
+						<div class="goods-content">
+							<span class="title-pic">精品</span>
+							<div class="goods-pic">
+								<a href="javascript:;"><img src="images/lb1.jpg"/></a>
+							</div>
+							<div class="goodsinfo">
+								<div class="goods-name"><a href="javascript:;">2015夏季小西装女外套夏装薄款韩版修身短款小西服</a></div>
+								<div class="goods-price">
+									<em class="salePrice">312.0</em><em class="markPrice">255.6</em>
+								</div>
+								<div class="sale-stat">
+									<ul>
+										<li>
+											<a href="javascript:;">0</a>
+											<p>商品销量</p>
+										</li>
+										<li>
+											<a href="">1</a>
+											<p>用户评论</p>
+										</li>
+										<li>
+											<a href="">389</a>
+											<p>关注人气</p>
+										</li>
+									</ul>
+								</div>
+								<div class="store">
+									<a class="collet-btn" href="javascript:;"></a>
+									<a class="compare-btn shop-compare" href="javascript:;"></a>
+								</div>
+								<div class="addcart">
+									<a href="javscript:;">加入购物车</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="li-item"></li>
+					<li class="li-item"></li>
+					<li class="li-item"></li>
+					<div class="next-page">
+						<div>&nbsp;</div>
+					</div>-->
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!--脚部轮播-->
+<div class="box clearfix">
+	<div class="product-strack">
+		<div class="product-left">
+			<div class="m">
+				<div class="me">
+					<h2>最近浏览</h2>
+				</div>
+				<div class="mc">
+					<ul class="history-list">
+						<li>
+							<div class="pImg"><a href="javascript:;"><img src="images/l-tj1.jpg"/></a></div>
+							<div class="rate"><a href="javascript:;">2016春秋季新款韩版胖MM大码女装宽松中长款假两件棉麻长袖连衣裙</a></div>
+							<div class="newprice"><strong>78.0</strong><b>93.6</b></div>
+						</li>
+						<li class="fore1">
+							<div class="pImg"><a href="javascript:;"><img src="images/l-tj2.jpg"/></a></div>
+							<div class="rate"><a href="javascript:;">欧洲站2016春秋女宽松显瘦长袖中长款针织连衣裙长裙羊毛衫连衣裙</a></div>
+							<div class="newprice"><strong>338.0</strong><b>358.3</b></div>
+						</li>
+						<li class="fore1">
+							<div class="pImg"><a href="javascript:;"><img src="images/l-ti3.jpg"/></a></div>
+							<div class="rate"><a href="javascript:;">千与千寻 2016春秋新款 女装蕾丝长裙 复古小立领连衣裙</a></div>
+							<div class="newprice"><strong>186.0</strong><b>223.6</b></div>
+						</li>
+						<li class="fore1">
+							<div class="pImg"><a href="javascript:;"><img src="images/l-tj4.jpg"/></a></div>
+							<div class="rate"><a href="javascript:;">高端2015夏装新款修身淑坊女女装蕾丝短袖复女连衣裙装</a></div>
+							<div class="newprice"><strong>199.0</strong><b>239.8</b></div>
+						</li>
+						<li class="fore1">
+							<div class="pImg"><a href="javascript:;"><img src="images/l-tj5.jpg"/></a></div>
+							<div class="rate"><a href="javascript:;">2015新款修身开衫短款七分袖小西装女薄网纱披肩防晒衫小外套女夏</a></div>
+							<div class="newprice"><strong>259.0</strong><b>310.8</b></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+		<div class="product-right">
+			<div class="me">
+				<h2>根据浏览猜你喜欢</h2>
+			</div>
+			<div class="mc">
+				<a class="guess-control" id="guess-forward"></a>
+				<a class="guess-control" id="guess-backward"></a>
+				<div class="ww">
+					<ul class="cc clearfix">
+						<li>
+							<div class="pImg"><a href="javascript:;"><img src="images/l-tj1.jpg"/></a></div>
+							<div class="rate"><a href="javascript:;">2016春秋季新款韩版胖MM大码女装宽松中长款假两件棉麻长袖连衣裙</a></div>
+							<div class="newprice"><strong>78.0</strong><b>93.6</b></div>
+						</li>
+						<li class="fore1">
+							<div class="pImg"><a href="javascript:;"><img src="images/l-tj2.jpg"/></a></div>
+							<div class="rate"><a href="javascript:;">欧洲站2016春秋女宽松显瘦长袖中长款针织连衣裙长裙羊毛衫连衣裙</a></div>
+							<div class="newprice"><strong>338.0</strong><b>358.3</b></div>
+						</li>
+						<li class="fore1">
+							<div class="pImg"><a href="javascript:;"><img src="images/l-ti3.jpg"/></a></div>
+							<div class="rate"><a href="javascript:;">千与千寻 2016春秋新款 女装蕾丝长裙 复古小立领连衣裙</a></div>
+							<div class="newprice"><strong>186.0</strong><b>223.6</b></div>
+						</li>
+						<li class="fore1">
+							<div class="pImg"><a href="javascript:;"><img src="images/l-tj4.jpg"/></a></div>
+							<div class="rate"><a href="javascript:;">高端2015夏装新款修身淑坊女女装蕾丝短袖复女连衣裙装</a></div>
+							<div class="newprice"><strong>199.0</strong><b>239.8</b></div>
+						</li>
+						<li class="fore1">
+							<div class="pImg"><a href="javascript:;"><img src="images/l-tj5.jpg"/></a></div>
+							<div class="rate"><a href="javascript:;">2015新款修身开衫短款七分袖小西装女薄网纱披肩防晒衫小外套女夏</a></div>
+							<div class="newprice"><strong>259.0</strong><b>310.8</b></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--sitefoot-->
+<div class="site-foot">
+	<div class="container warpper">
+		<div class="foot-links clearfix">
+			<dl class="linksname">
+				<dt>关于我们 </dt>
+				<dd><a rel="nofollow" href="javascript:;">隐私保护</a></dd>
+				<dd><a rel="nofollow" href="javascript:;">公司简介</a></dd>
+				<dd><a rel="nofollow" href="javascript:;">管理团队</a></dd>
+				<dd><a rel="nofollow" href="javascript:;">媒体报道</a></dd>
+				<dd><a rel="nofollow" href="javascript:;">领导关怀</a></dd>
+				<dd><a rel="nofollow" href="javascript:;">招贤纳士</a></dd>
+			</dl>
+			<dl class="linksname ">
+        		<dt>新手上路 </dt>
+                <dd><a rel="nofollow" href="javascript:;">售后流程</a></dd>
+                <dd><a rel="nofollow" href="javascript:;">购物流程</a></dd>
+                <dd><a rel="nofollow" href="javascript:;">订购方式</a></dd>
+                <dd><a rel="nofollow" href="javascript:;">商品评价</a></dd>
+                <dd><a rel="nofollow" href="javascript:;">在线支付</a></dd>
+             </dl>
+             <dl class="linksname ">
+        		<dt>配送方式 </dt>
+                <dd><a rel="nofollow" href="javascript:;">货到付款区域</a></dd>
+                <dd><a rel="nofollow" href="javascript:;">配送查询</a></dd>
+                <dd><a rel="nofollow" href="javascript:;">配送时间</a></dd>
+                <dd><a rel="nofollow" href="javascript:;">配送收费标准</a></dd>
+                <dd><a rel="nofollow" href="javascript:;">上门自提</a></dd>
+            </dl>
+            <dl class="linksname ">
+        		<dt>购物指南</dt>
+                <dd><a rel="nofollow" href="javascript:;">常见问题</a></dd>
+                <dd><a rel="nofollow" href="javascript:;">会员服务</a></dd>
+                <dd><a rel="nofollow" href="javascript:;">红包使用</a></dd>
+                <dd><a rel="nofollow" href="javascript:;">返现使用</a></dd>
+            </dl>
+            <dl class="linksname ">
+        		<dt>售后服务</dt>
+                <dd><a rel="nofollow" href="javascript:;">退换货原则</a></dd>
+                <dd><a rel="nofollow" href="javascript:;">售后服务保证</a></dd>
+                <dd><a rel="nofollow" href="javascript:;">退换货流程</a></dd>
+                <dd><a rel="nofollow" href="javascript:;">联系客服</a></dd>
+                <dd><a rel="nofollow" href="javascript:;">商品验收</a></dd>
+            </dl>
+            <div class="col-contact">
+        		<p class="phone">400-0310-707</p>
+        		<p>周一至周五 9:00-17:30<br>（仅收市话费）</p>
+        		<a class="btn-small" href="javascript:void(0);" style="color:#fff">24小时在线客服</a> 
+            </div>
+		</div>
+	</div>
+	<!---最后-->
+	<div class="finally clearfix">
+		<div class="info">
+			<p class="nav-bottom">
+				<a href="javascript:;" title="邢台亿搜人才网">关于我们</a>
+				<span class="sep">|</span>
+				<a href="javascript:;" title="邢台亿搜人才网">管理团队</a>
+				<span class="sep">|</span>
+				<a href="javascript:;" title="邢台亿搜人才网">商家入驻</a>
+				<span class="sep">|</span>
+				<a href="javascript:;" title="邢台亿搜人才网">媒体报道</a>
+				<span class="sep">|</span>
+				<a href="javascript:;" title="邢台亿搜人才网">站点地图</a>
+				<span class="sep">|</span>
+				<a href="javascript:;" title="邢台亿搜人才网">招贤纳士</a>
+				<span class="sep">|</span>
+				<a href="javascript:;" title="邢台亿搜人才网">站点地图</a>
+				<span class="sep">|</span>
+				<a href="javascript:;" title="邢台亿搜人才网">帮助中心</a>
+                           ICP备案证书号:
+                <a href="javascript:;" title="邢台亿搜人才网">冀ICP备14019346号-1</a>
+			</p>
+			<p>
+				<a href="javascript:;">© 2005-2016 聚惠买商城 版权所有，并保留所有权利。</a>
+				<a href="javascript:;">邯郸市开发区世纪大街2号才智港 </a>
+				<a href="javascript:;">      Tel: 400-0310-707      </a>
+				<a href="javascript:;">      E-mail: juhuimai@126.com      </a>
+			</p>
+			<p></p>
+		</div>
+	</div>
+<!--右侧导航-->
+<div class="right-nav">	
+	<div class="right-nav-box">
+		<div class="right-nav-top">
+			<div class="right-head">
+				<a class="headimg" href="javascript:;"><img src="images/user_head.png" alt="" /></a>
+				<div class="dropdown">
+					<form action="" method="get" name="">
+						<div class="form">
+							<h2>
+								<strong>请登录</strong>
+								<span>还没有账号？<a href="index3-register.html" class="right_register">立即注册</a></span>
+							</h2>
+							<div class="zhanghao clearfix">
+								<lable> 账   号 <input type="text"/></lable>
+							</div>
+							<div class="zhanghao clearfix">
+								<lable> 密   码 <input type="text"/></lable>
+							</div>
+							<div class="yanzheng clearfix">
+								<lable><span>验证码</span><input type="text"/></lable><input type="text"/></lable>
+							</div>
+							<div class="anquan">
+								<input type="checkbox" name="mima" id="mima" value="" />
+								<label for="mima">记住密码？</label>
+								<a href="javascrpt:;">忘记密码</a>
+							</div>
+							<div class="denglu">
+								<input type="submit" name="submit" class="btn-img" id="loginsubmit" value="立即登录">
+							</div>
+							<b class="arrow"></b>
+							<b class="arrow1"></b>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="mod inline-sale">
+				<a href="javscript:;" class="btn">在线销售</a>
+				<div class="dropdown">
+					<div class="guwen">
+						<h3 class="grid-c-l">在线销售顾问</h3>
+					</div>
+					<div class="button-bar">
+						<div class="cus">
+							<div style="border-bottom: 1px solid #ccc;padding-bottom: 10px;">
+								<img src="images/web_logo.png" alt="" /><a href="">在线客服</a>
+							</div>
+							<div>
+								<img src="images/qq1.gif" alt="" /><a href="">客服主管</a>
+							</div>
+							
+						</div>
+					</div>
+					<b class="arrow"></b>
+					<b class="arrow1"></b>
+				</div>
+			</div>
+			<!--在线问答-->
+			<div class="mod">
+				<div class="hezi">
+					<a class="diaocha" href="javascript:;">
+					<span>
+						<em></em>
+						<b>调 查</b>
+					</span>
+					<span class="words2">
+						在线调查
+					</span>
+				</a>
+				</div>
+			</div>
+			<!--购物车-->
+			<div class="mod reserve" style="height:135px;">
+				<a class="reserveCar" href="javascript:;">
+					<em></em>
+					<b>购<br/>物<br/>车<br/><span>0</span></b>
+				</a>
+				<!------------------------购物车！！！！！！！！！！！！！------------------------------->
+				<div class="dropdown" style="width:300px; padding: 10px;">
+					<div class="sho">
+						您购物车里什么都没有哦，先去看看吧。
+					</div>
+					<div class="shopcontent">
+						<ul id="shopcar">
+							<!--<li class="car-list clearfix">
+								<a href="javascript:;">
+									<img src="images/10.jpg"/>
+									<h4>
+										爱上的家属打脸狂魔二维码佛盎司欧萨佛念佛南方
+									</h4>
+									<span>550<strong> × </strong>2</span>
+								</a>
+								<i>×</i>
+							</li>
+							<li class="car-list clearfix">
+								<a href="javascript:;">
+									<img src="images/10.jpg"/>
+									<h4>
+										爱上的家属打脸狂魔二维码佛盎司欧萨佛念佛南方
+									</h4>
+									<span>550<strong> × </strong>2</span>
+								</a>
+								<i>×</i>
+							</li>
+							<li class="car-list clearfix">
+								<a href="javascript:;">
+									<img src="images/10.jpg"/>
+									<h4>
+										爱上的家属打脸狂魔二维码佛盎司欧萨佛念佛南方
+									</h4>
+									<span>550<strong> × </strong>2</span>
+								</a>
+								<i>×</i>
+							</li>-->
+						</ul>
+					</div>
+					<b class="arrow"></b>
+					<b class="arrow1"></b>
+				</div>
+			</div>
+			<!--关注-->
+			<div class="mod">
+				<div class="hezi">
+					<a class="dianpu" href="javascript:;">
+						<span>
+							<em></em>
+							<b>关注</b>
+						</span>
+						<span class="words2">
+							关注店铺
+						</span>
+					</a>
+				</div>
+			</div>
+			<!--收藏-->
+			<div class="mod">
+				<div class="hezi">
+					<a class="shoucang" href="javascript:;">
+						<span>
+							<em></em>
+							<b>收藏</b>
+						</span>
+						<span class="words2">
+							收藏商品
+						</span>
+					</a>
+				</div>
+			</div>
+			<div class="mod wechat">
+				<div class="hezi">
+					<a class="code" href="javascript:;">
+						<span>
+							<em style="margin-top:9px"> </em>
+						</span>
+						<span class="words2">
+							官方微信
+						</span>
+					</a>
+				</div>
+				<div class="dropdown codeImg">
+					<span></span>
+					<p>扫描二维码，码上有礼！</p>
+					<b class="arrow"></b>
+					<b class="arrow1"></b>
+				</div>
+			</div>
+		</div>
+		<!--回到顶部-->
+		<div class="right-nav-bottom">
+			<div class="back-top">
+				<a href="javascript:;">
+					<i class="top-img"></i>
+					<i class="backtop-word">回到顶部</i>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+	</body>
+</html>
