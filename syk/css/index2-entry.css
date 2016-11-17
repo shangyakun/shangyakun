@@ -1,0 +1,229 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none; }
+img{vertical-align: middle}
+ul, ol { list-style:none; }
+body { color:#333; font:12px/20px "SimSun","微软雅黑","Arial Narrow",HELVETICA; background:#fff;}
+em{font-style:normal}
+a { color:#666; text-decoration:none; }
+div,form,ul,ol,li,span,p{margin:0;padding:0;border:0;}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    font-size: 14px;
+    margin:0;padding:0;
+}
+/*以上是重置样式*/
+.logo-r{
+	height: 95px;
+    width: 100%;
+}
+.logo-r-info{
+	width: 920px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo-r-info .logo-r-box{
+	display: block;
+    width: 290px;
+    height: 80px;
+    background: url(../images/logo1.jpg) no-repeat;
+    margin: 0px;
+    float: left;
+}
+.logo-r-info .hydl{
+	border-left: 1px #ddd solid;
+    width: 290px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 30px;
+    margin: 26px 0px 0px 15px;
+    float: left;
+    padding: 0px 15px;
+    font-weight: 800;
+}
+.logo-r-info .t-weibo{
+	display: block;
+	width: 23px;
+    height: 23px;
+    background:url(../images/login.png) no-repeat -12px -10px;
+    margin: 35px 0px 0 20px;
+    float: right;
+}
+.logo-r-info .sina-weibo{
+	display: block;
+	width: 23px;
+    height: 23px;
+    background:url(../images/login.png) no-repeat -64px -10px;
+    margin: 35px 0 0 20px;
+    float: right;
+}
+.logo-r-info .wechat-ewm{
+	display: block;
+	width: 24px;
+    height: 23px;
+    background:url(../images/login.png) no-repeat -123px -10px;
+    margin: 35px 0 0 20px;
+    float: right;
+    cursor: pointer;
+}
+.blank{
+	height: 10px;
+    line-height: 10px;
+    clear: both;
+    visibility: hidden;
+}
+.warpper-w{
+	min-width: 990px;
+	width:100%;
+}
+.w{
+	width: 990px;
+    padding: 0;
+    margin: 0 auto;
+}
+.w .mcon{
+	margin-bottom: 20px;
+    height: 470px;
+    width: 990px;
+    overflow: hidden;
+    position: relative;
+}
+.mcon .fast-pic{
+	position: absolute;
+    background: url(../images/loginPic.jpg) no-repeat 0;
+    width: 605px;
+    height: 430px;
+    left:-605px;
+    top: 0px;
+}
+#entry .uc-box{
+	position: absolute;
+    top: 0px;
+    right: -385px;
+    width: 385px;
+}
+#entry h2{
+	font-size: 14px;;
+	height: 30px;
+    line-height: 30px;
+}
+#entry h2 span{
+	font-size: 12px;
+    float: right;
+}
+#entry span a{
+	color:#E4393C
+}
+#entry .form{
+	float: right;
+    overflow: hidden;
+    border: 1px #ddd solid;
+    padding: 20px 40px;
+    width: 300px;
+    min-height: 370px;
+    height: auto;
+    box-shadow: #ccc 0px 0px 5px;
+}
+.form input{
+	outline: none;
+}
+.form .items{
+	position: relative;
+	overflow: hidden;
+}
+.form .label{
+	font-size: 14px;
+    color: #666;
+    padding-right: 10px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+}
+#entry .text{
+	width: 288px;
+    height: 16px;
+    padding: 10px 5px 10px 5px;
+    border: 1px solid #cccccc;
+    font-size: 12px;
+    font-family: arial;
+    color: #999;
+}
+#toentry .safety{
+	margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+.form .safety .checkbox{
+	vertical-align: middle;
+	margin-top:7px;
+	float: left;
+}
+.form .safety .mar-b{
+	height: 26px;
+    line-height: 26px;
+    margin-left: 5px;
+    float: left;
+}
+.form .safety .forget_password{
+	margin-top:-2px;
+	float:right;
+}
+.form .btn-img{
+	width: 300px;
+    height: 35px;
+    font-size: 14px;
+    color: #FFF;
+    background: #E4393C;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border: none;
+}
+#remember{
+	width:15px;
+	height:15px;
+}
+#entry .blank{
+	width: 16px;
+    height: 16px;
+    margin: 2px 5px 0;
+}
+#entry .link-list{
+	font-size: 14px;
+}
+#entry .link-list i{
+	width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.link-list .link-list1 i{
+	background:url(../images/login.png) no-repeat -170px -40px;
+}
+.link-list .link-list2 i{
+	background:url(../images/login.png) no-repeat -9px -40px;
+}
+.link-list .link-list3 i{
+	background:url(../images/login.png) no-repeat -62px -40px;
+}
+.link-list .link-list4 i{
+	background:url(../images/login.png) no-repeat -123px -40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
