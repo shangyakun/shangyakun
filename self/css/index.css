@@ -1,0 +1,1455 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body,.swiper-container{
+	height: 100%;
+}
+html{
+	background: url(../image/main-img.jpg) no-repeat;
+	background-size: 100% 100%;
+    font-family: Lato,Helvetica Neue,Arial,SimSun,Helvetica,STHeiTi,Roboto Regular,Roboto,Droid Sans,Microsoft Yahei,sans-serif;
+}
+div{
+	-webkit-tap-highlight-color: transparent;
+}
+
+#cmp1{
+	position: absolute;
+    width: 10.9375rem;
+    height: 10.9375rem;
+    left: 22.65625%;
+    top: 10.01984126984127%;
+    z-index: 0;
+    animation: fadeIn 1s 1.5s 1 both,rotate2d 2s 2.5s infinite forwards;
+}
+#cmp2{
+	position: absolute;
+    width: 9.78125rem;
+    height: 9.78125rem;
+    left: 25.624999999999996%;
+    top: 11.904761904761903%;
+    z-index: 0;
+    animation: zoomIn 1s 0.5s 1 both;
+}
+
+#cmp3{
+    width: 9.125rem;
+    height: 9.125rem;
+    left: 27.187499999999996%;
+    top: 12.896825396825399%;
+    z-index: 0;
+    animation: fadeIn 1s 0.5s 1 both;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50%;
+}
+#cmp3 img{
+	border-radius: 50%;
+}
+#music{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    right: .5rem;
+    top: .5rem;
+    z-index: 100;
+}
+.control{
+    background: 0 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url(../image/music.gif) no-repeat;
+    background-size: contain;
+}
+.control-after{
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -.75rem;
+    margin-left: -.75rem;
+    background: url(../image/music_off.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: -1;
+    animation: rotate2d 1.2s linear infinite;
+}
+#cmp4{
+	position: absolute;
+    width: 9.125rem;
+    height: 1.78125rem;
+    left: 27.187499999999996%;
+    top: 50.39682539682539%;
+    z-index: 0;
+}
+
+.swiper-slide img{
+    color: black;
+    border-width: 0px;
+    border-style: solid;
+    border-color: transparent;
+    font-size: 1rem;
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    line-height: .8rem;	
+}
+#cmp5{
+    width: 9.03125rem;
+    height: 0.15625rem;
+    left: 27.500000000000004%;
+    top: 57.14285714285714%;
+    z-index: 0;
+    position: absolute;
+}
+#cmp6{
+	position: absolute;
+    width: 59.21875%;
+    height: 6.746031746031746%;
+    left: 20.46875%;
+    top: 77.97619047619048%;
+    z-index: 0;
+}
+#cmp7{
+	position: absolute;
+    width: 3.90625%;
+    height: 2.1825396825396823%;
+    left: 29.062500000000004%;
+    top: 80.35714285714286%;
+    z-index: 0;
+}
+
+#cmp8{
+    width: 3.90625%;
+    height: 2.1825396825396823%;
+    left: 67.03125%;
+    top: 80.35714285714286%;
+    z-index: 0;
+    position: absolute;
+}
+#cmp9{
+	position: absolute;
+    width: 35.625%;
+    height: auto;
+    left: 32.1875%;
+    top: 79.6626984126984%;
+    z-index: 0;
+}
+.cmp-inner{
+    color: #666666;
+    border-color: transparent;
+    font-size: 0.9rem;
+    opacity: 1;
+    font-family: 黑体;
+    line-height: 0.8rem;
+    text-align: center;
+}
+#cmp10{
+	position: absolute;
+    width: 56.25%;
+    height: auto;
+    left: 22.03125%;
+    top: 46.32936507936508%;
+    z-index: 0;
+
+}
+#cmp11{
+	position: absolute;
+    width: 56.25%;
+    height: auto;
+    left: 20.1875%;
+    top: 59.02777777777778%;
+    z-index: 0;
+    
+}
+#cmp12{
+    width: 40.625%;
+    height: auto;
+    left: 14.875%;
+    top: 71.92460317460318%;
+    z-index: 0;
+    position: absolute;
+}
+#cmp13{
+	position: absolute;
+    width: 42.625%;
+    height: auto;
+    left: 44.8125%;
+    top: 72.82539682539682%;
+    z-index: 0;
+}
+#cmp14{
+    position: absolute;
+    width: 1.2rem;
+    height: .9rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: .5rem;
+    background: url(../image/next.png) no-repeat;
+    background-size: 100% 100%;
+    animation: move 1.5s both;
+    animation-iteration-count: infinite;
+    z-index: 100;
+}
+#sec-cmp1{
+	position: absolute;
+    width: 29.531249999999996%;
+    height: 2.1825396825396823%;
+    left: 70.46875%;
+    top: 15.376984126984128%;
+    z-index: 0;
+    animation: bounceInLeft 1s 0.5s 1 both;
+}
+#sec-cmp2{
+    width: 28.125%;
+    height: 2.1825396825396823%;
+    left: 0.15625%;
+    top: 15.376984126984128%;
+    z-index: 0;
+    position: absolute;
+    animation: bounceInRight 1s 0.5s 1 both;	
+}
+#sec-cmp3{
+    width: 36.71875%;
+    height: 23.313492063492063%;
+    left: 31.71875%;
+    top: 4.662698412698413%;
+    z-index: 0;
+    position: absolute;
+    animation: bounceOut 1s 0.5s 1 both;	
+}
+#sec-cmp4{
+	position: absolute;
+    width: 26.875%;
+    height: 17.063492063492063%;
+    left: 36.5625%;
+    top: 7.738095238095238%;
+    z-index: 0;
+    animation: rotate2d 1s 0.5s infinite both;
+}
+#sec-cmp5{
+	position: absolute;
+    width: 22.1875%;
+    height: 5.654761904761905%;
+    left: 38.90625%;
+    top: 13.690476190476192%;
+    z-index: 0;
+}
+#sec-cmp6{
+	position: absolute;
+    width: 58.28124999999999%;
+    height: 0.496031746031746%;
+    left: 20.9375%;
+    top: 39.285714285714285%;
+    z-index: 0;
+}
+#sec-cmp7{
+	position: absolute;
+    width: 10.78125%;
+    height: 4.464285714285714%;
+    left: 25.3125%;
+    top: 32.83730158730159%;
+    z-index: 0;
+}
+#sec-cmp8{
+	position: absolute;
+    width: 26.25%;
+    height: 6.646825396825397%;
+    left: 50%;
+    top: 31.547619047619047%;
+    z-index: 0;
+}
+#sec-cmp9{
+	position: absolute;
+    width: 4.21875%;
+    height: 3.075396825396825%;
+    left: 42.5%;
+    top: 33.33333333333333%;
+    z-index: 0;
+}
+#sec-cmp10{
+	position: absolute;
+    width: 58.28124999999999%;
+    height: 0.496031746031746%;
+    left: 20.9375%;
+    top: 51.19047619047619%;
+    z-index: 0;
+}
+#sec-cmp11{
+	position: absolute;
+    width: 12.812499999999998%;
+    height: 4.464285714285714%;
+    left: 60.62499999999999%;
+    top: 44.642857142857146%;
+    z-index: 0;
+}
+#sec-cmp12{
+	position: absolute;
+    width: 26.406249999999996%;
+    height: 6.646825396825397%;
+    left: 23.75%;
+    top: 43.452380952380956%;
+    z-index: 0;
+}
+#sec-cmp13{
+	position: absolute;
+    width: 4.21875%;
+    height: 3.075396825396825%;
+    left: 53.28125%;
+    top: 45.23809523809524%;
+    z-index: 0;
+}
+#sec-cmp17{
+	position: absolute;
+    width: 58.28124999999999%;
+    height: 0.496031746031746%;
+    left: 20.9375%;
+    top: 63.095238095238095%;
+    z-index: 0;
+}
+#sec-cmp14{
+	position: absolute;
+    width: 12.812499999999998%;
+    height: 4.464285714285714%;
+    left: 25.3125%;
+    top: 56.64682539682539%;
+    z-index: 0;
+}
+#sec-cmp15{
+	position: absolute;
+	width: 26.25%;
+    height: 6.646825396825397%;
+    left: 50%;
+    top: 55.35714285714286%;
+    z-index: 0;
+}
+#sec-cmp16{
+	position: absolute;
+    width: 4.21875%;
+    height: 3.075396825396825%;
+    left: 42.5%;
+    top: 57.14285714285714%;
+    z-index: 0;
+}
+#sec-cmp21{
+	position: absolute;
+    width: 58.28124999999999%;
+    height: 0.496031746031746%;
+    left: 20.9375%;
+    top: 75%;
+    z-index: 0;
+}
+#sec-cmp18{
+	position: absolute;
+	width: 12.968750000000002%;
+    height: 4.464285714285714%;
+    left: 60.62499999999999%;
+    top: 68.45238095238095%;
+    z-index: 0;
+}
+#sec-cmp19{
+	position: absolute;
+    width: 26.406249999999996%;
+    height: 6.547619047619048%;
+    left: 23.75%;
+    top: 67.36111111111111%;
+    z-index: 0;
+}
+#sec-cmp20{
+	position: absolute;
+    width: 4.21875%;
+    height: 3.075396825396825%;
+    left: 53.28125%;
+    top: 69.04761904761905%;
+    z-index: 0;
+}
+#sec-cmp22{
+	position: absolute;
+    width: 58.28124999999999%;
+    height: 0.496031746031746%;
+    left: 20.9375%;
+    top: 86.90476190476191%;
+    z-index: 0;
+}
+#sec-cmp23{
+	position: absolute;
+    width: 12.812499999999998%;
+    height: 4.464285714285714%;
+    left: 25.3125%;
+    top: 80.45634920634922%;
+    z-index: 0;
+}
+#sec-cmp24{
+	position: absolute;
+    width: 26.25%;
+    height: 6.646825396825397%;
+    left: 50%;
+    top: 79.16666666666666%;
+    z-index: 0;
+}
+#sec-cmp25{
+	position: absolute;
+    width: 4.21875%;
+    height: 3.075396825396825%;
+    left: 42.5%;
+    top: 80.95238095238095%;
+    z-index: 0;
+}
+#sec-text1{
+	position: absolute;
+    width: 30.312499999999996%;
+    height: auto;
+    left: 47.5%;
+    top: 33.432539682539684%;
+    z-index: 0;
+}
+#sec-text2{
+	position: absolute;
+    width: 30.312499999999996%;
+    height: auto;
+    left: 21.5625%;
+    top: 45.23809523809524%;
+    z-index: 0;
+}
+#sec-text3{
+	position: absolute;
+    width: 30.312499999999996%;
+    height: auto;
+    left: 48.4375%;
+    top: 57.04365079365079%;
+    z-index: 0;
+}
+#sec-text4{
+	position: absolute;
+    width: 30.312499999999996%;
+    height: auto;
+    left: 21.875%;
+    top: 68.84920634920636%;
+    z-index: 0;
+}
+#sec-text5{
+	position: absolute;
+    width: 30.312499999999996%;
+    height: auto;
+    left: 48.125%;
+    top: 80.75396825396825%;
+    z-index: 0;
+}
+#sec{
+	position: absolute;
+    width: 36.71875%;
+    height: 23.313492063492063%;
+    left: 31.71875%;
+    top: 4.662698412698413%;
+    z-index: 0;
+    animation: bounceOut 1s 0.5s 1 both;
+}
+.third,.fourth,.fifth,.sixth,.seventh{
+	background: url(../image/third.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+#th1{
+	position: absolute;
+    width: 89.53125%;
+    height: 64.48412698412699%;
+    left: 5.3125%;
+    top: 32.73809523809524%;
+    z-index: 0;
+}
+#th2{
+	position: absolute;
+    width: 33.125%;
+    height: 6.746031746031746%;
+    left: 32.1875%;
+    top: 39.08730158730159%;
+    z-index: 0;	
+}
+#th3{
+	position: absolute;
+    width: 33.125%;
+    height: 6.746031746031746%;
+    left: 34.6875%;
+    top: 39.08730158730159%;
+    z-index: 0;
+}
+#th4{
+	position: absolute;
+    width: 10.15625%;
+    height: 3.571428571428571%;
+    left: 65.9375%;
+    top: 40.67460317460318%;
+    z-index: 0;	
+}
+#th5{
+	position: absolute;
+    width: 10.3125%;
+    height: 3.571428571428571%;
+    left: 23.75%;
+    top: 40.67460317460318%;
+    z-index: 0;	
+}
+#th6{
+	position: absolute;
+    width: 10.78125%;
+    height: 4.464285714285714%;
+    left: 44.53125%;
+    top: 7.936507936507936%;
+    z-index: 0;	
+}
+#th7{
+	position: absolute;
+    width: 33.28125%;
+    height: 6.845238095238096%;
+    left: 33.4375%;
+    top: 19.444444444444446%;
+    z-index: 0;	
+}
+#th8{
+	position: absolute;
+    width: 23.28125%;
+    height: 2.2817460317460316%;
+    left: 38.28125%;
+    top: 46.92460317460318%;
+    z-index: 0;	
+}
+#th9{
+	position: absolute;
+    width: 69.84375%;
+    height: 5.654761904761905%;
+    left: 15.156249999999998%;
+    top: 51.78571428571429%;
+    z-index: 0;	
+}
+#th10{
+	position: absolute;
+    width: 69.84375%;
+    height: 5.654761904761905%;
+    left: 15.156249999999998%;
+    top: 59.523809523809526%;
+    z-index: 0;	
+}
+#th11{
+	position: absolute;
+    width: 69.84375%;
+    height: 5.654761904761905%;
+    left: 15.156249999999998%;
+    top: 67.26190476190477%;
+    z-index: 0;
+}
+#th12{
+	position: absolute;
+    width: 69.84375%;
+    height: 5.654761904761905%;
+    left: 15.156249999999998%;
+    top: 74.90079365079364%;
+    z-index: 0;
+}
+#th13{
+	position: absolute;
+    width: 69.84375%;
+    height: 5.654761904761905%;
+    left: 15.156249999999998%;
+    top: 82.63888888888889%;
+    z-index: 0;	
+}
+#th14{
+	position: absolute;
+    width: 2.1875%;
+    height: 1.3888888888888888%;
+    left: 19.6875%;
+    top: 53.96825396825397%;
+    z-index: 0;
+}
+#th15{
+	position: absolute;
+	width: 2.1875%;
+    height: 1.3888888888888888%;
+    left: 78.28125%;
+    top: 53.96825396825397%;
+    z-index: 0;	
+}
+#th16{
+	position: absolute;
+    width: 2.1875%;
+    height: 1.3888888888888888%;
+    left: 19.6875%;
+    top: 61.70634920634921%;
+    z-index: 0;
+}
+#th17{
+	position: absolute;
+    width: 2.1875%;
+    height: 1.3888888888888888%;
+    left: 78.28125%;
+    top: 61.70634920634921%;
+    z-index: 0;
+}
+#th18{
+	position: absolute;
+    width: 2.1875%;
+    height: 1.3888888888888888%;
+    left: 19.6875%;
+    top: 69.44444444444444%;
+    z-index: 0;
+}
+#th19{
+	position: absolute;
+    width: 2.1875%;
+    height: 1.3888888888888888%;
+    left: 78.28125%;
+    top: 69.44444444444444%;
+    z-index: 0;
+}
+#th20{
+	position: absolute;
+    width: 2.1875%;
+    height: 1.3888888888888888%;
+    left: 19.6875%;
+    top: 77.08333333333334%;
+    z-index: 0;
+}
+#th21{
+	position: absolute;
+    width: 2.1875%;
+    height: 1.3888888888888888%;
+    left: 78.28125%;
+    top: 77.08333333333334%;
+    z-index: 0;
+}
+#th22{
+	position: absolute;
+    width: 2.1875%;
+    height: 1.3888888888888888%;
+    left: 19.6875%;
+    top: 84.82142857142857%;
+    z-index: 0;
+}
+#th23{
+	position: absolute;
+    width: 2.1875%;
+    height: 1.3888888888888888%;
+    left: 78.28125%;
+    top: 84.82142857142857%;
+    z-index: 0;
+}
+#th24{
+	position: absolute;
+    width: 58.28124999999999%;
+    height: 0.496031746031746%;
+    left: 20.9375%;
+    top: 2.976190476190476%;
+    z-index: 0;
+}
+#th-text1{
+	position: absolute;
+    width: 56.25%;
+    height: auto;
+    left: 21.875%;
+    top: 21.03174603174603%;
+    z-index: 0;
+}
+#th-text2{
+	position: absolute;
+	width: 30.312499999999996%;
+    height: auto;
+    left: 34.6875%;
+    top: 27.380952380952383%;
+    z-index: 0;	
+}
+#th-text3{
+	position: absolute;
+    width: 56.25%;
+    height: auto;
+    left: 21.875%;
+    top: 40.27777777777778%;
+    z-index: 0;
+}
+#th-text4{
+	position: absolute;
+	width: 59.06249999999999%;
+    height: auto;
+    left: 20.3125%;
+    top: 53.47222222222222%;
+    z-index: 0;
+}
+#th-text5{
+	position: absolute;
+	width: 59.06249999999999%;
+    height: auto;
+    left: 20.3125%;
+    top: 61.011904761904766%;
+    z-index: 0;
+}
+#th-text6{
+	position: absolute;
+    width: 59.06249999999999%;
+    height: auto;
+    left: 20.46875%;
+    top: 68.84920634920636%;
+    z-index: 0;
+}
+#th-text7{
+	position: absolute;
+    width: 59.06249999999999%;
+    height: auto;
+    left: 20.78125%;
+    top: 76.38888888888889%;
+    z-index: 0;
+}
+#th-text8{
+	position: absolute;
+    width: 59.06249999999999%;
+    height: auto;
+    left: 21.25%;
+    top: 84.22619047619048%;
+    z-index: 0;
+}
+
+
+/*专业技能*/
+#four1{
+	position: absolute;
+    width: 47.8125%;
+    height: 5.555555555555555%;
+    left: 38.125%;
+    top: 36.01190476190476%;
+    z-index: 0;
+}
+#four2{
+	position: absolute;
+    width: 45.9375%;
+    height: 3.869047619047619%;
+    left: 39.0625%;
+    top: 36.904761904761905%;
+    z-index: 0;
+}
+#four2 img{
+	opacity: 0.6;
+}
+#four3{
+	position: absolute;
+    width: 40.3125%;
+    height: 3.869047619047619%;
+    left: 39.0625%;
+    top: 36.904761904761905%;
+    z-index: 0;    
+}
+#four4{
+	position: absolute;
+    width: 5.3125%;
+    height: 3.7698412698412698%;
+    left: 31.093749999999996%;
+    top: 37.00396825396825%;
+    z-index: 0;   
+}
+#four5{
+	position: absolute;
+    width: 15.312500000000002%;
+    height: 9.920634920634921%;
+    left: 13.28125%;
+    top: 33.82936507936508%;
+    z-index: 0;  
+}
+#four6{
+	position: absolute;
+    width: 47.8125%;
+    height: 5.555555555555555%;
+    left: 38.125%;
+    top: 50.198412698412696%;
+    z-index: 0;
+}
+#four7{
+	position: absolute;
+    width: 45.9375%;
+    height: 3.869047619047619%;
+    left: 39.0625%;
+    top: 51.091269841269835%;
+    z-index: 0;
+}
+#four7 img{
+	opacity: 0.6;
+}
+#four8{
+	position: absolute;
+    width: 30.46875%;
+    height: 3.869047619047619%;
+    left: 39.0625%;
+    top: 51.091269841269835%;
+    z-index: 0;   
+}
+#four9{
+	position: absolute;
+    width: 5.3125%;
+    height: 3.7698412698412698%;
+    left: 31.093749999999996%;
+    top: 51.19047619047619%;
+    z-index: 0;  
+}
+#four10{
+	position: absolute;
+    width: 15.312500000000002%;
+    height: 9.920634920634921%;
+    left: 13.28125%;
+    top: 48.01587301587302%;
+    z-index: 0; 
+}
+#four11{
+	position: absolute;
+    width: 47.8125%;
+    height: 5.555555555555555%;
+    left: 38.125%;
+    top: 64.48412698412699%;
+    z-index: 0;
+}
+#four12{
+	position: absolute;
+    width: 45.9375%;
+    height: 3.869047619047619%;
+    left: 39.0625%;
+    top: 65.37698412698413%;
+    z-index: 0;
+}
+#four12 img{
+	opacity: 0.6;
+}
+#four13{
+	position: absolute;
+    width: 25%;
+    height: 3.869047619047619%;
+    left: 39.0625%;
+    top: 65.37698412698413%;
+    z-index: 0;   
+}
+#four14{
+	position: absolute;
+    width: 5.3125%;
+    height: 3.7698412698412698%;
+    left: 31.093749999999996%;
+    top: 65.47619047619048%;
+    z-index: 0; 
+}
+#four15{
+	position: absolute;
+    width: 15.312500000000002%;
+    height: 9.920634920634921%;
+    left: 13.28125%;
+    top: 62.301587301587304%;
+    z-index: 0;
+}
+#four16{
+	position: absolute;
+    width: 47.8125%;
+    height: 5.555555555555555%;
+    left: 38.125%;
+    top: 78.67063492063492%;
+    z-index: 0;
+}
+#four17{
+	position: absolute;
+    width: 45.9375%;
+    height: 3.869047619047619%;
+    left: 39.0625%;
+    top: 79.56349206349206%;
+    z-index: 0;
+}
+#four17 img{
+	opacity: 0.6;
+}
+#four18{
+	position: absolute;
+    width: 40.3125%;
+    height: 3.968253968253968%;
+    left: 39.0625%;
+    top: 79.46428571428571%;
+    z-index: 0; 
+}
+#four19{
+	position: absolute;
+    width: 5.3125%;
+    height: 3.7698412698412698%;
+    left: 31.093749999999996%;
+    top: 79.6626984126984%;
+    z-index: 0;
+}
+#four20{
+	position: absolute;
+    width: 15.312500000000002%;
+    height: 9.920634920634921%;
+    left: 13.28125%;
+    top: 76.48809523809523%;
+    z-index: 0;
+}
+#four-text1{
+	position: absolute;
+    width: 14.0625%;
+    height: auto;
+    left: 67.5%;
+    top: 79.86111111111111%;
+    z-index: 0;
+}
+#four-text2{
+	position: absolute;
+    width: 18.4375%;
+    height: auto;
+    left: 52.81249999999999%;
+    top: 65.77380952380952%;
+    z-index: 0;
+}
+#four-text3{
+	position: absolute;
+    width: 14.0625%;
+    height: auto;
+    left: 57.49999999999999%;
+    top: 51.388888888888886%;
+    z-index: 0;
+}
+#four-text4{
+	position: absolute;
+	width: 14.0625%;
+    height: auto;
+    left: 68.125%;
+    top: 37.202380952380956%;
+    z-index: 0;
+}
+#four-text5{
+	position: absolute;
+    width: 14.6875%;
+    height: auto;
+    left: 13.593749999999998%;
+    top: 37.40079365079365%;
+    z-index: 0;
+}
+#four-text6{
+	position: absolute;
+    width: 14.6875%;
+    height: auto;
+    left: 13.90625%;
+    top: 51.388888888888886%;
+    z-index: 0;
+}
+#four-text7{
+	position: absolute;
+    width: 14.6875%;
+    height: auto;
+    left: 13.90625%;
+    top: 65.67460317460318%;
+    z-index: 0;
+}
+#four-text8{
+	position: absolute;
+    width: 14.6875%;
+    height: auto;
+    left: 13.593749999999998%;
+    top: 80.05952380952381%;
+    z-index: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*工作经历*/
+#fif1{
+	position: absolute;
+    width: 0.3125%;
+    height: 53.86904761904761%;
+    left: 11.09375%;
+    top: 36.7063492063492%;
+    z-index: 0;	
+}
+#fif2{
+	position: absolute;
+    width: 38.75%;
+    height: 0.1984126984126984%;
+    left: 11.09375%;
+    top: 35.91269841269841%;
+    z-index: 0;
+}
+#fif3{
+	position: absolute;
+    width: 4.84375%;
+    height: 3.075396825396825%;
+    left: 8.75%;
+    top: 42.06349206349206%;
+    z-index: 0;
+}
+#fif4{
+	position: absolute;
+    width: 4.84375%;
+    height: 3.075396825396825%;
+    left: 8.75%;
+    top: 54.96031746031746%;
+    z-index: 0;
+}
+#fif5{
+	position: absolute;
+    width: 4.84375%;
+    height: 3.075396825396825%;
+    left: 8.75%;
+    top: 67.95634920634922%;
+    z-index: 0;
+}
+#fif6{
+	position: absolute;
+ 	width: 4.84375%;
+    height: 3.075396825396825%;
+    left: 8.75%;
+    top: 80.85317460317461%;
+    z-index: 0;
+}
+#fif7{
+	position: absolute;
+    width: 2.5%;
+    height: 1.5873015873015872%;
+    left: 48.125%;
+    top: 35.91269841269841%;
+    z-index: 0;
+}
+#fif8{
+	position: absolute;
+    width: 47.8125%;
+    height: 5.555555555555555%;
+    left: 43.90625%;
+    top: 40.773809523809526%;
+    z-index: 0;
+}
+#fif9{
+	position: absolute;
+    width: 47.8125%;
+    height: 5.555555555555555%;
+    left: 43.90625%;
+    top: 53.67063492063492%;
+    z-index: 0;
+}
+#fif10{
+	position: absolute;
+    width: 47.8125%;
+    height: 5.555555555555555%;
+    left: 43.90625%;
+    top: 66.66666666666666%;
+    z-index: 0;
+}
+#fif11{
+	position: absolute;
+    width: 47.8125%;
+    height: 5.555555555555555%;
+    left: 44.21875%;
+    top: 79.76190476190477%;
+    z-index: 0;
+}
+#fif-text1{
+	position: absolute;
+    width: 33.4375%;
+    height: auto;
+    left: 14.374999999999998%;
+    top: 42.16269841269841%;
+    z-index: 0;	
+}
+#fif-text2{
+	position: absolute;
+    width: 33.4375%;
+    height: auto;
+    left: 14.374999999999998%;
+    top: 54.96031746031746%;
+    z-index: 0;
+}
+#fif-text3{
+	position: absolute;
+    width: 33.4375%;
+    height: auto;
+    left: 14.0625%;
+    top: 68.05555555555556%;
+    z-index: 0;	
+}
+#fif-text4{
+	position: absolute;
+    width: 33.4375%;
+    height: auto;
+    left: 14.374999999999998%;
+    top: 81.15079365079364%;
+    z-index: 0;
+}
+
+#fif-text5{
+	position: absolute;
+	width: 50.625%;
+    height: auto;
+    left: 45.625%;
+    top: 42.16269841269841%;
+    z-index: 0;
+}
+#fif-text6{
+	position: absolute;
+    width: 50.625%;
+    height: auto;
+    left: 45.3125%;
+    top: 55.05952380952381%;
+    z-index: 0;
+}
+#fif-text7{
+	position: absolute;
+    width: 50.625%;
+    height: auto;
+    left: 45.3125%;
+    top: 68.15476190476191%;
+    z-index: 0;
+}
+#fif-text8{
+	position: absolute;
+    width: 50.625%;
+    height: auto;
+    left: 45.625%;
+    top: 81.25%;
+    z-index: 0;
+}
+#fif12{
+	position: absolute;
+    width: 0.3125%;
+    height: 10.218253968253968%;
+    left: 49.21875%;
+    top: 91.76587301587301%;
+    z-index: 0;
+}
+#fif13{
+	position: absolute;
+	width: 2.5%;
+    height: 1.5873015873015872%;
+    left: 48.125%;
+    top: 90.37698412698413%;
+    z-index: 0;
+}
+#fif14{
+	position: absolute;
+    width: 38.75%;
+    height: 0.1984126984126984%;
+    left: 11.09375%;
+    top: 90.37698412698413%;
+    z-index: 0;
+}
+/*作品展示*/
+#six1{
+	position: absolute;
+    width: 0.3125%;
+    height: 53.86904761904761%;
+    left: 11.09375%;
+    top: 39.78174603174603%;
+    z-index: 0;	
+}
+#six2{
+	position: absolute;
+    width: 6.406249999999999%;
+    height: 0.1984126984126984%;
+    left: 11.09375%;
+    top: 39.58333333333333%;
+    z-index: 0;	
+}
+#six3{
+	position: absolute;
+	width: 6.406249999999999%;
+    height: 0.1984126984126984%;
+    left: 11.09375%;
+    top: 61.011904761904766%;
+    z-index: 0;	
+}
+#six4{
+	position: absolute;
+    width: 6.5625%;
+    height: 0.1984126984126984%;
+    left: 11.09375%;
+    top: 82.04365079365078%;
+    z-index: 0;
+}
+#six5{
+	position: absolute;
+    width: 4.84375%;
+    height: 3.075396825396825%;
+    left: 8.75%;
+    top: 38.19444444444444%;
+    z-index: 0;
+}
+#six6{
+	position: absolute;
+    width: 4.84375%;
+    height: 3.075396825396825%;
+    left: 8.75%;
+    top: 59.62301587301587%;
+    z-index: 0;
+}
+#six7{
+	position: absolute;
+    width: 4.84375%;
+    height: 3.075396825396825%;
+    left: 8.75%;
+    top: 80.65476190476191%;
+    z-index: 0;
+}
+#six8{
+	position: absolute;
+	width: 4.84375%;
+    height: 3.075396825396825%;
+    left: 8.75%;
+    top: 92.55952380952381%;
+    z-index: 0;
+}
+#six9{
+	position: absolute;
+    width: 32.8125%;
+    height: 0.1984126984126984%;
+    left: 11.09375%;
+    top: 93.5515873015873%;
+    z-index: 0;
+}
+#six10{
+	position: absolute;
+    width: 0.3125%;
+    height: 5.555555555555555%;
+    left: 43.59375%;
+    top: 94.24603174603175%;
+    z-index: 0;
+}
+#six11{
+	position: absolute;
+    width: 59.53125%;
+    height: 17.956349206349206%;
+    left: 17.65625%;
+    top: 32.142857142857146%;
+    z-index: 0;
+}
+#six12{
+	position: absolute;
+    width: 59.84374999999999%;
+    height: 18.154761904761905%;
+    left: 17.5%;
+    top: 32.0436507936508%;
+    z-index: 0;	
+}
+#six13{
+	position: absolute;
+    width: 59.53125%;
+    height: 17.956349206349206%;
+    left: 17.65625%;
+    top: 53.273809523809526%;
+    z-index: 0;
+}
+#six14{
+	position: absolute;
+    width: 59.84374999999999%;
+    height: 18.154761904761905%;
+    left: 17.8125%;
+    top: 53.17460317460318%;
+    z-index: 0;
+}
+#six15{
+	position: absolute;
+    width: 59.53125%;
+    height: 17.956349206349206%;
+    left: 17.65625%;
+    top: 74.50396825396825%;
+    z-index: 0;
+}
+#six16{
+	position: absolute;
+ 	width: 59.84374999999999%;
+    height: 18.154761904761905%;
+    left: 17.8125%;
+    top: 74.40476190476191%;
+    z-index: 0;
+}
+#six17{
+	position: absolute;
+	width: 20.625%;
+    height: 0.2976190476190476%;
+    left: 79.6875%;
+    top: 45.13888888888889%;
+    z-index: 0;
+}
+#six18{
+	position: absolute;
+    width: 20.625%;
+    height: 0.2976190476190476%;
+    left: 79.6875%;
+    top: 66.36904761904762%;
+    z-index: 0;
+}
+#six19{
+	position: absolute;
+    width: 20.625%;
+    height: 0.2976190476190476%;
+    left: 79.6875%;
+    top: 86.80555555555556%;
+    z-index: 0;
+}
+#six-text1{
+	position: absolute;
+    width: 32.5%;
+    height: auto;
+    left: 78.75%;
+    top: 39.18650793650794%;
+    z-index: 0;
+}
+#six-text2{
+	position: absolute;
+    width: 32.5%;
+    height: auto;
+    left: 79.0625%;
+    top: 60.416666666666664%;
+    z-index: 0;   
+}
+#six-text3{
+	position: absolute;
+    width: 32.5%;
+    height: auto;
+    left: 79.0625%;
+    top: 80.65476190476191%;
+    z-index: 0;
+}
+/*联系方式*/
+#sev2{
+	position: absolute;
+    width: 47.8125%;
+    height: 5.555555555555555%;
+    left: 26.09375%;
+    top: 70.3373015873016%;
+    z-index: 0;
+}
+#sev3{
+	position: absolute;
+    width: 47.8125%;
+    height: 5.555555555555555%;
+    left: 26.09375%;
+    top: 78.47222222222221%;
+    z-index: 0;
+}
+#sev4{
+	position: absolute;
+    width: 4.84375%;
+    height: 3.075396825396825%;
+    left: 47.65625%;
+    top: 89.0873015873016%;
+    z-index: 0;
+}
+#sev5{
+	position: absolute;
+    width: 84.84375%;
+    height: 0.1984126984126984%;
+    left: 7.656250000000001%;
+    top: 89.48412698412699%;
+    z-index: 0;
+}
+#sev6{
+	position: absolute;
+    width: 44.0625%;
+    height: 27.976190476190478%;
+    left: 27.968749999999996%;
+    top: 33.63095238095239%;
+    z-index: 0;
+}
+#sev-text1{
+	position: absolute;
+    width: 56.25%;
+    height: auto;
+    left: 22.5%;
+    top: 71.62698412698413%;
+    z-index: 0;
+}
+#sev-text2{
+	position: absolute;
+    width: 56.25%;
+    height: auto;
+    left: 22.1875%;
+    top: 79.6626984126984%;
+    z-index: 0;
+}
+@keyframes zoomIn{
+	0%{
+        transform: scale3d(.3,.3,.3);
+	}
+	100%{
+	    transform: scale3d(1,1,1);	
+	}
+	
+}
+@keyframes rotate2d{
+	0%{
+	    transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);	
+	}
+	
+}
+@keyframes fadeIn{
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+	
+}
+@keyframes fadeInUp{
+	0%{
+		opacity: 0;
+		transform: translate3d(0,100%,0);
+	}
+	100%{
+		opacity: 1;
+		transform: none;
+	}
+	
+}
+
+@keyframes move{
+	from{
+		opacity: 1;
+		bottom: .5rem;
+	}
+	to{
+		opacity: 0;
+		bottom: 2rem;
+	}
+}
+
+@keyframes bounceInRight{
+	0%{
+		opacity: 0;
+	    transform: translate3d(400%,0,0);
+	}
+	100%{
+		opacity: 1;
+		transform: none;
+	}
+	
+}
+@keyframes bounceOut{
+	0%{
+		opacity: 0;
+        transform: scale3d(.3,.3,.3);
+	}
+	30%{
+    	transform: scale3d(1.5,1.5,1.5);
+	}
+	40%{
+     	transform: scale3d(.9,.9,.9);
+	}
+	60%{
+     	transform: scale3d(1.03,1.03,1.03);
+	}
+	80%{
+        transform: scale3d(.97,.97,.97);
+	}	
+	100%{
+		opacity: 1;
+    	transform: scale3d(1,1,1);
+	}
+	
+}

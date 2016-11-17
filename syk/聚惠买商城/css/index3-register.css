@@ -1,0 +1,288 @@
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none; }
+img{vertical-align: middle}
+ul, ol { list-style:none; }
+body { color:#333; font:12px/20px "SimSun","微软雅黑","Arial Narrow",HELVETICA; background:#fff;}
+em{font-style:normal}
+a { color:#666; text-decoration:none; }
+div,form,ul,ol,li,span,p{margin:0;padding:0;border:0;}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+    font-size: 14px;
+    margin:0;padding:0;
+}
+/*以上是重置样式*/
+
+
+
+
+
+
+
+.logo-r{
+	height: 95px;
+    width: 100%;
+}
+.logo-r-info{
+	width: 920px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo-r-info .logo-r-box{
+	display: block;
+    width: 290px;
+    height: 80px;
+    background: url(../images/logo1.jpg) no-repeat;
+    margin: 0px;
+    float: left;
+}
+.logo-r-info .hydl{
+	border-left: 1px #ddd solid;
+    width: 290px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 30px;
+    margin: 26px 0px 0px 15px;
+    float: left;
+    padding: 0px 15px;
+    font-weight: 800;
+}
+.logo-r-info .t-weibo{
+	display: block;
+	width: 23px;
+    height: 23px;
+    background:url(../images/login.png) no-repeat -12px -10px;
+    margin: 35px 0px 0 20px;
+    float: right;
+}
+.logo-r-info .sina-weibo{
+	display: block;
+	width: 23px;
+    height: 23px;
+    background:url(../images/login.png) no-repeat -64px -10px;
+    margin: 35px 0 0 20px;
+    float: right;
+}
+.logo-r-info .wechat-ewm{
+	display: block;
+	width: 24px;
+    height: 23px;
+    background:url(../images/login.png) no-repeat -123px -10px;
+    margin: 35px 0 0 20px;
+    float: right;
+    cursor: pointer;
+}
+.blank{
+	height: 10px;
+    line-height: 10px;
+    clear: both;
+    visibility: hidden;
+}
+.warpper-w{
+	min-width: 990px;
+	width:100%;
+}
+.w{
+	width: 990px;
+    padding: 0;
+    margin: 0 auto;
+}
+.w .mcon{
+	margin-bottom: 20px;
+    height: 470px;
+    width: 990px;
+    overflow: hidden;
+    position: relative;
+}
+.mcon .fast-pic{
+	position: absolute;
+    background: url(../images/loginPic.jpg) no-repeat 0;
+    width: 605px;
+    height: 430px;
+    left:0;
+    top: 0px;
+}
+.mcon .uc-box{
+	position: absolute;
+	right: 0;
+	width:385px;
+}
+.uc-box .register-tab{
+	right: 46px;
+    top: 70px;
+    z-index: 99;
+    font-size: 14px;
+    width: 382px;
+    height: 31px;
+    margin-left: 3px;
+}
+.uc-box .tab-item{
+	width: 130px;
+    height: 26px;
+    line-height: 26px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    float: left;
+    font-size: 14px;
+    margin: 5px 5px 0 0;
+}
+.tab-item .fff{
+	display: none;
+    width: 130px;
+    height: 6px;
+    background:#fff;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+.uc-box .active{
+	background: #fff;
+    color: #e4393e;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    height: 31px;
+    line-height: 31px;
+    margin-top: 0;
+}
+.uc-box .active .fff{
+	display: block;
+}
+.item input{
+	outline: none;
+}
+#register .label{
+	padding-right: 10px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    margin:5px 0;
+}
+.uc-box .not-tab{
+	font-size: 12px;
+    padding-top: 5px;
+    font-size:12px;
+}
+#register .form{
+	float: right;
+    overflow: hidden;
+    border: 1px #ddd solid;
+    padding: 20px 40px;
+    width: 300px;
+    min-height: 370px;
+    height: auto;
+}
+#register .item{
+	position: relative;
+}
+#register .text{
+	width: 258px;
+    height: 16px;
+    padding: 10px 5px 10px 5px;
+    border: 1px solid #cccccc;
+    font-size: 12px;
+    font-family: arial;
+    color: #999;
+    padding-left:30px;
+}
+#register i{
+	position: absolute;
+    right: 8px;
+    background: url(../images/register.png) no-repeat 0 0;
+}
+#register .i-phone {
+    background-position: -1px -50px;
+    height: 21px;
+    top: 8px;
+    width: 14px;
+    left: 10px;
+}
+#register .i-pass{
+	height: 19px;
+    top: 10px;
+    width: 14px;
+    left: 10px;
+    background-position: -1px -25px;
+}
+#register .i-email{
+	background-position: 0px -75px;
+    height: 16px;
+    top: 10px;
+    width: 16px;
+    left: 10px;
+}
+#register .pwd-notice{
+	display: none;
+}
+.safety .checkbox{
+	margin-top:14px;
+	float: left;
+}
+.safety .mar-b{
+	height: 40px;
+    line-height: 40px;
+    margin-left: 5px;
+    float: left;
+    font-size: 12px;
+}
+#register .btn-regist {
+    width: 300px;
+    height: 35px;
+    font-size: 14px;
+    color: #FFF;
+    background: #E4393C;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border: none;
+}
+#zphone{
+	height: 37px;
+    font-size: 12px;
+    font-style: normal;
+    font-family: microsoft yahei;
+    color: #FFF;
+    background: #E4393C;
+    text-align: center;
+    line-height: 37px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0px 8px;
+    border: none;
+    margin-left: 10px;
+    float: left;
+}
+
+#register .form{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
