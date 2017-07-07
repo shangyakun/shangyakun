@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script type="text/javascript" src="js/angular.js"></script>
+
+</head>
+<body>
+	<div ng-controller="myCtrl">{{name}}</div>
+	<div ng-controller="myCtrl1">{{name}}</div>
+	<script type="text/javascript">
+		var app = angular.module('app',[]);
+		app.controller('myCtrl',function($scope){
+			$scope.name = 'shang'
+			
+		});
+		app.controller('myCtrl1',function($scope){
+			$scope.name = '亚昆';
+		})
+	</script>
+</body>
+</html>

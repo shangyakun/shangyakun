@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+	<script src="js/jquery-2.1.0.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/angular.js"></script>
+</head>
+<body ng-controller="cityCtrl">
+	 <div class="row">
+		<div class="col-md-2">
+			<select class="form-control" ng-model="selected" ng-options="s.name for s in list">
+				<option value="">-- 请选择省份 --</option>
+			</select>
+		</div>
+		<div class="col-md-2">
+			<select class="form-control" ng-model="selected2" ng-options="s.name for s in selected.child">
+				<option value="">-- 请选择城市 --</option>
+			</select>
+		</div>
+		<div class="col-md-2">
+			<select class="form-control" ng-model="selected3" ng-options="s.value for s in selected2.child">
+				<option value="">-- 请选择城县/区 --</option>
+			</select>
+		</div>
+	</div>
+	<button class="btn btn-default" ng-click="sub()" type="submit">Button</button>
+	<script type="text/javascript">
+	
+	var app = angular.module('myApp',[]);
+	
+		app.controller('cityCtrl', ['$scope', '$http', function ($scope, $http) {
+			$scope.list = [];
+			$scope.sub = function(){
+				console.log($scope.selected.name,$scope.selected2.name,$scope.selected3.value)
+			}
+			$http.get('js/data.json').then(function(data){
+				$scope.list = data.data;
+			});
+		}]);
+	</script>
+
+	
+	
+</body>
+</html>

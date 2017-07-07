@@ -1,0 +1,40 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title>Angularjs分页控件</title>
+  <script src="src/js/angular.js"></script> <!-- 引入angularjs文件，而且是1.x版本的 -->
+  <script src="src/js/angular-pagination.js"></script> <!-- 引入angularjs分页控件 -->
+  <script src="src/js/App.js"></script> <!-- 引入app.js -->
+</head>
+<body>
+ 
+<!-- 控制器 -->
+<div ng-controller="myCtrl">
+ 
+  <!-- 分页控件指令 ，可以是元素 或者 属性 -->
+  <my-pagination page-option="option"></my-pagination>
+ 
+</div>
+ <script type="text/javascript">
+ 	//引入 'myModele' 模块
+var app = angular.module('app', ['myModule']);
+ 
+app.controller('myCtrl', function($scope){
+ 
+  //设置分页的参数
+  $scope.option = {
+    curr: 1, //当前页数
+    all: 20, //总页数
+    count: 10, //最多显示的页数，默认为10
+ 
+    //点击页数的回调函数，参数page为点击的页数
+    click: function (page) {
+      console.log(page);
+      //这里可以写跳转到某个页面等...
+    }
+  }
+});
+ </script>
+</body>
+</html>

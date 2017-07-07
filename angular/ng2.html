@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script type="text/javascript" src="js/angular.js"></script>
+
+</head>
+<body>
+	<my-ctrl></my-ctrl>
+	<div my-ctrl></div>
+	<!---directive:my-ctrl--->
+	<div class="my-ctrl"></div>
+	<runoob-directive></runoob-directive>
+	<script type="text/javascript">
+		var app = angular.module('app',[]);
+		app.directive('myCtrl',function(){
+			return {
+				restrict:'ACEM',
+				replace:true,
+				template:'<h1>这是模板</h1>'
+			}
+			
+		})
+	</script>
+</body>
+</html>
