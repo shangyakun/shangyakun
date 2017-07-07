@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<!-- 这行代码可以指定网页使用 webkit 引擎渲染，当然，只对 360 浏览器 6.5+ 有效 -->
+		<meta name="renderer" content="webkit">
+		<!-- 如果你的网站不想被剥去外衣、往赤裸的身体上贴广告 -->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		
+		<!--开启对web app的支持-->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<!--主要是正对苹果手机将数字自动识别为号码-->
+		<meta name="format-detection" content="telephone=no" />
+		<!-- 忽略识别邮箱，主要是针对安卓手机会自动将符合邮箱格式的字符串识别为邮箱地址-->
+		<meta content="email=no" name="format-detection" />
+		<meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL" />
+		<!-- 添加智能 App 广告条 Smart App Banner：告诉浏览器这个网站对应的app，并在页面上显示下载banner:https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/PromotingAppswithAppBanners/PromotingAppswithAppBanners.html -->
+		<!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+		<meta name="HandheldFriendly" content="true">
+		<!-- 微软的老式浏览器 -->
+		<meta name="MobileOptimized" content="320">
+		<!-- uc强制竖屏 -->
+		<meta name="screen-orientation" content="portrait">
+		<!-- QQ强制竖屏 -->
+		<meta name="x5-orientation" content="portrait">
+		<!-- UC强制全屏 -->
+		<meta name="full-screen" content="yes">
+		<!-- QQ强制全屏 -->
+		<meta name="x5-fullscreen" content="true">
+		<!-- UC应用模式 -->
+		<meta name="browsermode" content="application">
+		<!-- QQ应用模式 -->
+		<meta name="x5-page-mode" content="app">
+		<!-- windows phone 点击无高光 -->
+		<meta name="msapplication-tap-highlight" content="no">
+
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="src/css/index.css"/>
+	</head>
+	<body>
+		<div id="app"></div>
+		<!--<script type="text/javascript">
+			window.onload=function () {
+    var a=1;
+    function f1() {
+        this.a=2;
+        console.log(this.a+a);//3
+        console.log(a);//1
+    }
+ 
+    f1();
+}
+
+//2
+var a=1;
+function f1() {
+    this.a=2;
+    console.log(this.a+a);//4
+    console.log(a);//2
+}
+
+f1();
+		</script>-->
+		<script type="text/javascript" src="build.js"></script>
+		<script>
+			/*let context = {
+				getter:function(){
+					console.log(1)
+				},
+				commit:function(){
+					console.log(2)
+				},
+				a:function(){
+					console.log(3)
+				}
+			};
+			
+			let {commit} = context;
+			console.log(commit)*/
+			//console.log(0.1+0.2)
+			
+			
+		</script>
+	</body>
+</html>
