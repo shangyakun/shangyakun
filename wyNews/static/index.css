@@ -1,0 +1,51 @@
+body,
+html,
+div,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+img,
+label,
+input {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  color: #000;
+  background: #fff;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 25px;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: #f0f0f0;
+  font-family: Helvetica;
+}
+ul,
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #dedede;
+	font-size: 0.18rem;
+}
+
+img {
+	vertical-align: top;
+}
+
+i {
+	font-style: normal;
+}
